@@ -43,6 +43,22 @@ Ability PokedexDatabase::getPokemonAbilities(int number) const
 }
 
 
+void PokedexDatabase::setPokemonCaught(int number, bool caught)
+{
+    for(Pokemon& pokemon : pokemonList)
+    {
+        if(pokemon.getPokedexNumber() == number)
+        {
+            if(caught)
+                pokemon.catchPokemon();
+            else
+                pokemon.releasePokemon();
+            return;
+        }
+    }
+}
+
+
 int PokedexDatabase::getPokemonCount() const
 {
     return static_cast<int>(pokemonList.size());

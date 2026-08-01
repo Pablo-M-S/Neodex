@@ -154,6 +154,8 @@ int main(int, char**)
             {
                 Pokemon p = database.getPokemon(i);
                 std::string label = "#" + std::to_string(p.getPokedexNumber()) + " " + p.getName();
+                if (p.isCaught())
+                    label += " [X]";
                 bool isSelected = (i == selectedPokedexNumber);
                 if (ImGui::Selectable(label.c_str(), isSelected))
                 {
@@ -205,10 +207,7 @@ int main(int, char**)
                 bool caught = p.isCaught();
                 if (ImGui::Checkbox("Capturado", &caught))
                 {
-                    // Nota: isso so afeta a copia local 'p'. Persistir o estado
-                    // de captura de volta no banco de dados fica para uma
-                    // proxima etapa (precisa de um setter/updatePokemon no
-                    // PokedexDatabase).
+                    database.setPokemonCaught(p.getPokedexNumber(), caught);
                 }
 
                 // Evolucoes a partir deste Pokemon, se houver
