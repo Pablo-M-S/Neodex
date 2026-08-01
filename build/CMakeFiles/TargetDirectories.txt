@@ -1,0 +1,5 @@
+/data/data/com.termux/files/home/neodex_fixed/build/CMakeFiles/neodex_core.dir
+/data/data/com.termux/files/home/neodex_fixed/build/CMakeFiles/neodex_cli.dir
+/data/data/com.termux/files/home/neodex_fixed/build/CMakeFiles/neodex_gui.dir
+/data/data/com.termux/files/home/neodex_fixed/build/CMakeFiles/edit_cache.dir
+/data/data/com.termux/files/home/neodex_fixed/build/CMakeFiles/rebuild_cache.dir

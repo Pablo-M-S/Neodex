@@ -1,0 +1,1 @@
+/data/data/com.termux/files/usr/bin/c++ -O2 -g -DNDEBUG -Xlinker --dependency-file=CMakeFiles/neodex_cli.dir/link.d CMakeFiles/neodex_cli.dir/core/src/Main.cpp.o -o neodex_cli  libneodex_core.a

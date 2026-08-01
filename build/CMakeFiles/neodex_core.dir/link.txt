@@ -1,0 +1,2 @@
+/data/data/com.termux/files/usr/bin/llvm-ar qc libneodex_core.a CMakeFiles/neodex_core.dir/core/src/EvolutionDatabase.cpp.o CMakeFiles/neodex_core.dir/core/src/JsonValue.cpp.o CMakeFiles/neodex_core.dir/core/src/PokedexDatabase.cpp.o CMakeFiles/neodex_core.dir/core/src/PokedexSearch.cpp.o CMakeFiles/neodex_core.dir/core/src/Pokemon.cpp.o CMakeFiles/neodex_core.dir/core/src/PokemonDisplay.cpp.o CMakeFiles/neodex_core.dir/core/src/RegionLoader.cpp.o
+/data/data/com.termux/files/usr/bin/llvm-ranlib libneodex_core.a

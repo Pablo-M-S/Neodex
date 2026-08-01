@@ -1,0 +1,4442 @@
+{
+  "region": "Kanto",
+  "pokemon": [
+    {
+      "number": 1,
+      "name": "Bulbasaur",
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 45,
+        "attack": 49,
+        "defense": 49,
+        "specialAttack": 65,
+        "specialDefense": 65,
+        "speed": 45
+      },
+      "abilities": {
+        "primary": "Overgrow",
+        "secondary": "",
+        "hidden": "Chlorophyll"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/001.png",
+      "cryPath": "assets/cries/kanto/001.ogg",
+      "evolvesTo": [
+        2
+      ]
+    },
+    {
+      "number": 2,
+      "name": "Ivysaur",
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 60,
+        "attack": 62,
+        "defense": 63,
+        "specialAttack": 80,
+        "specialDefense": 80,
+        "speed": 60
+      },
+      "abilities": {
+        "primary": "Overgrow",
+        "secondary": "",
+        "hidden": "Chlorophyll"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/002.png",
+      "cryPath": "assets/cries/kanto/002.ogg",
+      "evolvesTo": [
+        3
+      ]
+    },
+    {
+      "number": 3,
+      "name": "Venusaur",
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 80,
+        "attack": 82,
+        "defense": 83,
+        "specialAttack": 100,
+        "specialDefense": 100,
+        "speed": 80
+      },
+      "abilities": {
+        "primary": "Overgrow",
+        "secondary": "",
+        "hidden": "Chlorophyll"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/003.png",
+      "cryPath": "assets/cries/kanto/003.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 4,
+      "name": "Charmander",
+      "types": [
+        "Fire"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 39,
+        "attack": 52,
+        "defense": 43,
+        "specialAttack": 60,
+        "specialDefense": 50,
+        "speed": 65
+      },
+      "abilities": {
+        "primary": "Blaze",
+        "secondary": "",
+        "hidden": "Solar Power"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/004.png",
+      "cryPath": "assets/cries/kanto/004.ogg",
+      "evolvesTo": [
+        5
+      ]
+    },
+    {
+      "number": 5,
+      "name": "Charmeleon",
+      "types": [
+        "Fire"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 58,
+        "attack": 64,
+        "defense": 58,
+        "specialAttack": 80,
+        "specialDefense": 65,
+        "speed": 80
+      },
+      "abilities": {
+        "primary": "Blaze",
+        "secondary": "",
+        "hidden": "Solar Power"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/005.png",
+      "cryPath": "assets/cries/kanto/005.ogg",
+      "evolvesTo": [
+        6
+      ]
+    },
+    {
+      "number": 6,
+      "name": "Charizard",
+      "types": [
+        "Fire",
+        "Flying"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 78,
+        "attack": 84,
+        "defense": 78,
+        "specialAttack": 109,
+        "specialDefense": 85,
+        "speed": 100
+      },
+      "abilities": {
+        "primary": "Blaze",
+        "secondary": "",
+        "hidden": "Solar Power"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/006.png",
+      "cryPath": "assets/cries/kanto/006.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 7,
+      "name": "Squirtle",
+      "types": [
+        "Water"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 44,
+        "attack": 48,
+        "defense": 65,
+        "specialAttack": 50,
+        "specialDefense": 64,
+        "speed": 43
+      },
+      "abilities": {
+        "primary": "Torrent",
+        "secondary": "",
+        "hidden": "Rain Dish"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/007.png",
+      "cryPath": "assets/cries/kanto/007.ogg",
+      "evolvesTo": [
+        8
+      ]
+    },
+    {
+      "number": 8,
+      "name": "Wartortle",
+      "types": [
+        "Water"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 59,
+        "attack": 63,
+        "defense": 80,
+        "specialAttack": 65,
+        "specialDefense": 80,
+        "speed": 58
+      },
+      "abilities": {
+        "primary": "Torrent",
+        "secondary": "",
+        "hidden": "Rain Dish"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/008.png",
+      "cryPath": "assets/cries/kanto/008.ogg",
+      "evolvesTo": [
+        9
+      ]
+    },
+    {
+      "number": 9,
+      "name": "Blastoise",
+      "types": [
+        "Water"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 79,
+        "attack": 83,
+        "defense": 100,
+        "specialAttack": 85,
+        "specialDefense": 105,
+        "speed": 78
+      },
+      "abilities": {
+        "primary": "Torrent",
+        "secondary": "",
+        "hidden": "Rain Dish"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/009.png",
+      "cryPath": "assets/cries/kanto/009.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 10,
+      "name": "Caterpie",
+      "types": [
+        "Bug"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 45,
+        "attack": 30,
+        "defense": 35,
+        "specialAttack": 20,
+        "specialDefense": 20,
+        "speed": 45
+      },
+      "abilities": {
+        "primary": "Shield Dust",
+        "secondary": "",
+        "hidden": ""
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/010.png",
+      "cryPath": "assets/cries/kanto/010.ogg",
+      "evolvesTo": [
+        11
+      ]
+    },
+    {
+      "number": 11,
+      "name": "Metapod",
+      "types": [
+        "Bug"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 50,
+        "attack": 20,
+        "defense": 55,
+        "specialAttack": 25,
+        "specialDefense": 25,
+        "speed": 30
+      },
+      "abilities": {
+        "primary": "Shed Skin",
+        "secondary": "",
+        "hidden": ""
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/011.png",
+      "cryPath": "assets/cries/kanto/011.ogg",
+      "evolvesTo": [
+        12
+      ]
+    },
+    {
+      "number": 12,
+      "name": "Butterfree",
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 60,
+        "attack": 45,
+        "defense": 50,
+        "specialAttack": 90,
+        "specialDefense": 80,
+        "speed": 70
+      },
+      "abilities": {
+        "primary": "Compound Eyes",
+        "secondary": "",
+        "hidden": "Tinted Lens"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/012.png",
+      "cryPath": "assets/cries/kanto/012.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 13,
+      "name": "Weedle",
+      "types": [
+        "Bug",
+        "Poison"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 40,
+        "attack": 35,
+        "defense": 30,
+        "specialAttack": 20,
+        "specialDefense": 20,
+        "speed": 50
+      },
+      "abilities": {
+        "primary": "Shield Dust",
+        "secondary": "",
+        "hidden": ""
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/013.png",
+      "cryPath": "assets/cries/kanto/013.ogg",
+      "evolvesTo": [
+        14
+      ]
+    },
+    {
+      "number": 14,
+      "name": "Kakuna",
+      "types": [
+        "Bug",
+        "Poison"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 45,
+        "attack": 25,
+        "defense": 50,
+        "specialAttack": 25,
+        "specialDefense": 25,
+        "speed": 35
+      },
+      "abilities": {
+        "primary": "Shed Skin",
+        "secondary": "",
+        "hidden": ""
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/014.png",
+      "cryPath": "assets/cries/kanto/014.ogg",
+      "evolvesTo": [
+        15
+      ]
+    },
+    {
+      "number": 15,
+      "name": "Beedrill",
+      "types": [
+        "Bug",
+        "Poison"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 65,
+        "attack": 90,
+        "defense": 40,
+        "specialAttack": 45,
+        "specialDefense": 80,
+        "speed": 75
+      },
+      "abilities": {
+        "primary": "Swarm",
+        "secondary": "",
+        "hidden": "Sniper"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/015.png",
+      "cryPath": "assets/cries/kanto/015.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 16,
+      "name": "Pidgey",
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 40,
+        "attack": 45,
+        "defense": 40,
+        "specialAttack": 35,
+        "specialDefense": 35,
+        "speed": 56
+      },
+      "abilities": {
+        "primary": "Keen Eye",
+        "secondary": "Tangled Feet",
+        "hidden": "Big Pecks"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/016.png",
+      "cryPath": "assets/cries/kanto/016.ogg",
+      "evolvesTo": [
+        17
+      ]
+    },
+    {
+      "number": 17,
+      "name": "Pidgeotto",
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 63,
+        "attack": 60,
+        "defense": 55,
+        "specialAttack": 50,
+        "specialDefense": 50,
+        "speed": 71
+      },
+      "abilities": {
+        "primary": "Keen Eye",
+        "secondary": "Tangled Feet",
+        "hidden": "Big Pecks"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/017.png",
+      "cryPath": "assets/cries/kanto/017.ogg",
+      "evolvesTo": [
+        18
+      ]
+    },
+    {
+      "number": 18,
+      "name": "Pidgeot",
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 83,
+        "attack": 80,
+        "defense": 75,
+        "specialAttack": 70,
+        "specialDefense": 70,
+        "speed": 101
+      },
+      "abilities": {
+        "primary": "Keen Eye",
+        "secondary": "Tangled Feet",
+        "hidden": "Big Pecks"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/018.png",
+      "cryPath": "assets/cries/kanto/018.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 19,
+      "name": "Rattata",
+      "types": [
+        "Normal"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 30,
+        "attack": 56,
+        "defense": 35,
+        "specialAttack": 25,
+        "specialDefense": 35,
+        "speed": 72
+      },
+      "abilities": {
+        "primary": "Run Away",
+        "secondary": "Guts",
+        "hidden": "Hustle"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/019.png",
+      "cryPath": "assets/cries/kanto/019.ogg",
+      "evolvesTo": [
+        20
+      ]
+    },
+    {
+      "number": 20,
+      "name": "Raticate",
+      "types": [
+        "Normal"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 55,
+        "attack": 81,
+        "defense": 60,
+        "specialAttack": 50,
+        "specialDefense": 70,
+        "speed": 97
+      },
+      "abilities": {
+        "primary": "Run Away",
+        "secondary": "Guts",
+        "hidden": "Hustle"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/020.png",
+      "cryPath": "assets/cries/kanto/020.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 21,
+      "name": "Spearow",
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 40,
+        "attack": 60,
+        "defense": 30,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 70
+      },
+      "abilities": {
+        "primary": "Keen Eye",
+        "secondary": "",
+        "hidden": "Sniper"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/021.png",
+      "cryPath": "assets/cries/kanto/021.ogg",
+      "evolvesTo": [
+        22
+      ]
+    },
+    {
+      "number": 22,
+      "name": "Fearow",
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 65,
+        "attack": 90,
+        "defense": 65,
+        "specialAttack": 61,
+        "specialDefense": 61,
+        "speed": 100
+      },
+      "abilities": {
+        "primary": "Keen Eye",
+        "secondary": "",
+        "hidden": "Sniper"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/022.png",
+      "cryPath": "assets/cries/kanto/022.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 23,
+      "name": "Ekans",
+      "types": [
+        "Poison"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 35,
+        "attack": 60,
+        "defense": 44,
+        "specialAttack": 40,
+        "specialDefense": 54,
+        "speed": 55
+      },
+      "abilities": {
+        "primary": "Intimidate",
+        "secondary": "Shed Skin",
+        "hidden": "Unnerve"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/023.png",
+      "cryPath": "assets/cries/kanto/023.ogg",
+      "evolvesTo": [
+        24
+      ]
+    },
+    {
+      "number": 24,
+      "name": "Arbok",
+      "types": [
+        "Poison"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 60,
+        "attack": 95,
+        "defense": 69,
+        "specialAttack": 65,
+        "specialDefense": 79,
+        "speed": 80
+      },
+      "abilities": {
+        "primary": "Intimidate",
+        "secondary": "Shed Skin",
+        "hidden": "Unnerve"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/024.png",
+      "cryPath": "assets/cries/kanto/024.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 25,
+      "name": "Pikachu",
+      "types": [
+        "Electric"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 35,
+        "attack": 55,
+        "defense": 40,
+        "specialAttack": 50,
+        "specialDefense": 50,
+        "speed": 90
+      },
+      "abilities": {
+        "primary": "Static",
+        "secondary": "",
+        "hidden": "Lightning Rod"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/025.png",
+      "cryPath": "assets/cries/kanto/025.ogg",
+      "evolvesTo": [
+        26
+      ]
+    },
+    {
+      "number": 26,
+      "name": "Raichu",
+      "types": [
+        "Electric"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 60,
+        "attack": 90,
+        "defense": 55,
+        "specialAttack": 90,
+        "specialDefense": 80,
+        "speed": 110
+      },
+      "abilities": {
+        "primary": "Static",
+        "secondary": "",
+        "hidden": "Lightning Rod"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/026.png",
+      "cryPath": "assets/cries/kanto/026.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 27,
+      "name": "Sandshrew",
+      "types": [
+        "Ground"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 50,
+        "attack": 75,
+        "defense": 85,
+        "specialAttack": 20,
+        "specialDefense": 30,
+        "speed": 40
+      },
+      "abilities": {
+        "primary": "Sand Veil",
+        "secondary": "",
+        "hidden": "Sand Rush"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/027.png",
+      "cryPath": "assets/cries/kanto/027.ogg",
+      "evolvesTo": [
+        28
+      ]
+    },
+    {
+      "number": 28,
+      "name": "Sandslash",
+      "types": [
+        "Ground"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 75,
+        "attack": 100,
+        "defense": 110,
+        "specialAttack": 45,
+        "specialDefense": 55,
+        "speed": 65
+      },
+      "abilities": {
+        "primary": "Sand Veil",
+        "secondary": "",
+        "hidden": "Sand Rush"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/028.png",
+      "cryPath": "assets/cries/kanto/028.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 29,
+      "name": "Nidoran♀",
+      "types": [
+        "Poison"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 55,
+        "attack": 47,
+        "defense": 52,
+        "specialAttack": 40,
+        "specialDefense": 40,
+        "speed": 41
+      },
+      "abilities": {
+        "primary": "Poison Point",
+        "secondary": "Rivalry",
+        "hidden": "Hustle"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/029.png",
+      "cryPath": "assets/cries/kanto/029.ogg",
+      "evolvesTo": [
+        30
+      ]
+    },
+    {
+      "number": 30,
+      "name": "Nidorina",
+      "types": [
+        "Poison"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 70,
+        "attack": 62,
+        "defense": 67,
+        "specialAttack": 55,
+        "specialDefense": 55,
+        "speed": 56
+      },
+      "abilities": {
+        "primary": "Poison Point",
+        "secondary": "Rivalry",
+        "hidden": "Hustle"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/030.png",
+      "cryPath": "assets/cries/kanto/030.ogg",
+      "evolvesTo": [
+        31
+      ]
+    },
+    {
+      "number": 31,
+      "name": "Nidoqueen",
+      "types": [
+        "Poison",
+        "Ground"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 90,
+        "attack": 92,
+        "defense": 87,
+        "specialAttack": 75,
+        "specialDefense": 85,
+        "speed": 76
+      },
+      "abilities": {
+        "primary": "Poison Point",
+        "secondary": "Rivalry",
+        "hidden": "Sheer Force"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/031.png",
+      "cryPath": "assets/cries/kanto/031.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 32,
+      "name": "Nidoran♂",
+      "types": [
+        "Poison"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 46,
+        "attack": 57,
+        "defense": 40,
+        "specialAttack": 40,
+        "specialDefense": 40,
+        "speed": 50
+      },
+      "abilities": {
+        "primary": "Poison Point",
+        "secondary": "Rivalry",
+        "hidden": "Hustle"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/032.png",
+      "cryPath": "assets/cries/kanto/032.ogg",
+      "evolvesTo": [
+        33
+      ]
+    },
+    {
+      "number": 33,
+      "name": "Nidorino",
+      "types": [
+        "Poison"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 61,
+        "attack": 72,
+        "defense": 57,
+        "specialAttack": 55,
+        "specialDefense": 55,
+        "speed": 65
+      },
+      "abilities": {
+        "primary": "Poison Point",
+        "secondary": "Rivalry",
+        "hidden": "Hustle"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/033.png",
+      "cryPath": "assets/cries/kanto/033.ogg",
+      "evolvesTo": [
+        34
+      ]
+    },
+    {
+      "number": 34,
+      "name": "Nidoking",
+      "types": [
+        "Poison",
+        "Ground"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 81,
+        "attack": 102,
+        "defense": 77,
+        "specialAttack": 85,
+        "specialDefense": 75,
+        "speed": 85
+      },
+      "abilities": {
+        "primary": "Poison Point",
+        "secondary": "Rivalry",
+        "hidden": "Sheer Force"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/034.png",
+      "cryPath": "assets/cries/kanto/034.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 35,
+      "name": "Clefairy",
+      "types": [
+        "Fairy"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 70,
+        "attack": 45,
+        "defense": 48,
+        "specialAttack": 60,
+        "specialDefense": 65,
+        "speed": 35
+      },
+      "abilities": {
+        "primary": "Cute Charm",
+        "secondary": "Magic Guard",
+        "hidden": "Friend Guard"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/035.png",
+      "cryPath": "assets/cries/kanto/035.ogg",
+      "evolvesTo": [
+        36
+      ]
+    },
+    {
+      "number": 36,
+      "name": "Clefable",
+      "types": [
+        "Fairy"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 95,
+        "attack": 70,
+        "defense": 73,
+        "specialAttack": 95,
+        "specialDefense": 90,
+        "speed": 60
+      },
+      "abilities": {
+        "primary": "Cute Charm",
+        "secondary": "Magic Guard",
+        "hidden": "Unaware"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/036.png",
+      "cryPath": "assets/cries/kanto/036.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 37,
+      "name": "Vulpix",
+      "types": [
+        "Fire"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 38,
+        "attack": 41,
+        "defense": 40,
+        "specialAttack": 50,
+        "specialDefense": 65,
+        "speed": 65
+      },
+      "abilities": {
+        "primary": "Flash Fire",
+        "secondary": "",
+        "hidden": "Drought"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/037.png",
+      "cryPath": "assets/cries/kanto/037.ogg",
+      "evolvesTo": [
+        38
+      ]
+    },
+    {
+      "number": 38,
+      "name": "Ninetales",
+      "types": [
+        "Fire"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 73,
+        "attack": 76,
+        "defense": 75,
+        "specialAttack": 81,
+        "specialDefense": 100,
+        "speed": 100
+      },
+      "abilities": {
+        "primary": "Flash Fire",
+        "secondary": "",
+        "hidden": "Drought"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/038.png",
+      "cryPath": "assets/cries/kanto/038.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 39,
+      "name": "Jigglypuff",
+      "types": [
+        "Normal",
+        "Fairy"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 115,
+        "attack": 45,
+        "defense": 20,
+        "specialAttack": 45,
+        "specialDefense": 25,
+        "speed": 20
+      },
+      "abilities": {
+        "primary": "Cute Charm",
+        "secondary": "Competitive",
+        "hidden": "Friend Guard"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/039.png",
+      "cryPath": "assets/cries/kanto/039.ogg",
+      "evolvesTo": [
+        40
+      ]
+    },
+    {
+      "number": 40,
+      "name": "Wigglytuff",
+      "types": [
+        "Normal",
+        "Fairy"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 140,
+        "attack": 70,
+        "defense": 45,
+        "specialAttack": 85,
+        "specialDefense": 50,
+        "speed": 45
+      },
+      "abilities": {
+        "primary": "Cute Charm",
+        "secondary": "Competitive",
+        "hidden": "Frisk"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/040.png",
+      "cryPath": "assets/cries/kanto/040.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 41,
+      "name": "Zubat",
+      "types": [
+        "Poison",
+        "Flying"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 40,
+        "attack": 45,
+        "defense": 35,
+        "specialAttack": 30,
+        "specialDefense": 40,
+        "speed": 55
+      },
+      "abilities": {
+        "primary": "Inner Focus",
+        "secondary": "",
+        "hidden": "Infiltrator"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/041.png",
+      "cryPath": "assets/cries/kanto/041.ogg",
+      "evolvesTo": [
+        42
+      ]
+    },
+    {
+      "number": 42,
+      "name": "Golbat",
+      "types": [
+        "Poison",
+        "Flying"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 75,
+        "attack": 80,
+        "defense": 70,
+        "specialAttack": 65,
+        "specialDefense": 75,
+        "speed": 90
+      },
+      "abilities": {
+        "primary": "Inner Focus",
+        "secondary": "",
+        "hidden": "Infiltrator"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/042.png",
+      "cryPath": "assets/cries/kanto/042.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 43,
+      "name": "Oddish",
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 45,
+        "attack": 50,
+        "defense": 55,
+        "specialAttack": 75,
+        "specialDefense": 65,
+        "speed": 30
+      },
+      "abilities": {
+        "primary": "Chlorophyll",
+        "secondary": "",
+        "hidden": "Run Away"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/043.png",
+      "cryPath": "assets/cries/kanto/043.ogg",
+      "evolvesTo": [
+        44
+      ]
+    },
+    {
+      "number": 44,
+      "name": "Gloom",
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 60,
+        "attack": 65,
+        "defense": 70,
+        "specialAttack": 85,
+        "specialDefense": 75,
+        "speed": 40
+      },
+      "abilities": {
+        "primary": "Chlorophyll",
+        "secondary": "",
+        "hidden": "Stench"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/044.png",
+      "cryPath": "assets/cries/kanto/044.ogg",
+      "evolvesTo": [
+        45
+      ]
+    },
+    {
+      "number": 45,
+      "name": "Vileplume",
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 75,
+        "attack": 80,
+        "defense": 85,
+        "specialAttack": 110,
+        "specialDefense": 90,
+        "speed": 50
+      },
+      "abilities": {
+        "primary": "Chlorophyll",
+        "secondary": "",
+        "hidden": "Stench"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/045.png",
+      "cryPath": "assets/cries/kanto/045.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 46,
+      "name": "Paras",
+      "types": [
+        "Bug",
+        "Grass"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 35,
+        "attack": 70,
+        "defense": 55,
+        "specialAttack": 45,
+        "specialDefense": 55,
+        "speed": 25
+      },
+      "abilities": {
+        "primary": "Effect Spore",
+        "secondary": "Dry Skin",
+        "hidden": "Damp"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/046.png",
+      "cryPath": "assets/cries/kanto/046.ogg",
+      "evolvesTo": [
+        47
+      ]
+    },
+    {
+      "number": 47,
+      "name": "Parasect",
+      "types": [
+        "Bug",
+        "Grass"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 60,
+        "attack": 95,
+        "defense": 80,
+        "specialAttack": 60,
+        "specialDefense": 80,
+        "speed": 30
+      },
+      "abilities": {
+        "primary": "Effect Spore",
+        "secondary": "Dry Skin",
+        "hidden": "Damp"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/047.png",
+      "cryPath": "assets/cries/kanto/047.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 48,
+      "name": "Venonat",
+      "types": [
+        "Bug",
+        "Poison"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 60,
+        "attack": 55,
+        "defense": 50,
+        "specialAttack": 40,
+        "specialDefense": 55,
+        "speed": 45
+      },
+      "abilities": {
+        "primary": "Compound Eyes",
+        "secondary": "Tinted Lens",
+        "hidden": "Run Away"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/048.png",
+      "cryPath": "assets/cries/kanto/048.ogg",
+      "evolvesTo": [
+        49
+      ]
+    },
+    {
+      "number": 49,
+      "name": "Venomoth",
+      "types": [
+        "Bug",
+        "Poison"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 70,
+        "attack": 65,
+        "defense": 60,
+        "specialAttack": 90,
+        "specialDefense": 75,
+        "speed": 90
+      },
+      "abilities": {
+        "primary": "Compound Eyes",
+        "secondary": "Tinted Lens",
+        "hidden": "Run Away"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/049.png",
+      "cryPath": "assets/cries/kanto/049.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 50,
+      "name": "Diglett",
+      "types": [
+        "Ground"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 10,
+        "attack": 55,
+        "defense": 25,
+        "specialAttack": 35,
+        "specialDefense": 45,
+        "speed": 95
+      },
+      "abilities": {
+        "primary": "Sand Veil",
+        "secondary": "Arena Trap",
+        "hidden": "Sand Force"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/050.png",
+      "cryPath": "assets/cries/kanto/050.ogg",
+      "evolvesTo": [
+        51
+      ]
+    },
+    {
+      "number": 51,
+      "name": "Dugtrio",
+      "types": [
+        "Ground"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 35,
+        "attack": 100,
+        "defense": 50,
+        "specialAttack": 50,
+        "specialDefense": 70,
+        "speed": 120
+      },
+      "abilities": {
+        "primary": "Sand Veil",
+        "secondary": "Arena Trap",
+        "hidden": "Sand Force"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/051.png",
+      "cryPath": "assets/cries/kanto/051.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 52,
+      "name": "Meowth",
+      "types": [
+        "Normal"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 40,
+        "attack": 45,
+        "defense": 35,
+        "specialAttack": 40,
+        "specialDefense": 40,
+        "speed": 90
+      },
+      "abilities": {
+        "primary": "Pickup",
+        "secondary": "Technician",
+        "hidden": "Unnerve"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/052.png",
+      "cryPath": "assets/cries/kanto/052.ogg",
+      "evolvesTo": [
+        53
+      ]
+    },
+    {
+      "number": 53,
+      "name": "Persian",
+      "types": [
+        "Normal"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 65,
+        "attack": 70,
+        "defense": 60,
+        "specialAttack": 65,
+        "specialDefense": 65,
+        "speed": 115
+      },
+      "abilities": {
+        "primary": "Pickup",
+        "secondary": "Technician",
+        "hidden": "Unnerve"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/053.png",
+      "cryPath": "assets/cries/kanto/053.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 54,
+      "name": "Psyduck",
+      "types": [
+        "Water"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 50,
+        "attack": 52,
+        "defense": 48,
+        "specialAttack": 65,
+        "specialDefense": 50,
+        "speed": 55
+      },
+      "abilities": {
+        "primary": "Damp",
+        "secondary": "Cloud Nine",
+        "hidden": "Swift Swim"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/054.png",
+      "cryPath": "assets/cries/kanto/054.ogg",
+      "evolvesTo": [
+        55
+      ]
+    },
+    {
+      "number": 55,
+      "name": "Golduck",
+      "types": [
+        "Water"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 80,
+        "attack": 82,
+        "defense": 78,
+        "specialAttack": 95,
+        "specialDefense": 80,
+        "speed": 85
+      },
+      "abilities": {
+        "primary": "Damp",
+        "secondary": "Cloud Nine",
+        "hidden": "Swift Swim"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/055.png",
+      "cryPath": "assets/cries/kanto/055.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 56,
+      "name": "Mankey",
+      "types": [
+        "Fighting"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 40,
+        "attack": 80,
+        "defense": 35,
+        "specialAttack": 35,
+        "specialDefense": 45,
+        "speed": 70
+      },
+      "abilities": {
+        "primary": "Vital Spirit",
+        "secondary": "Anger Point",
+        "hidden": "Defiant"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/056.png",
+      "cryPath": "assets/cries/kanto/056.ogg",
+      "evolvesTo": [
+        57
+      ]
+    },
+    {
+      "number": 57,
+      "name": "Primeape",
+      "types": [
+        "Fighting"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 65,
+        "attack": 105,
+        "defense": 60,
+        "specialAttack": 60,
+        "specialDefense": 70,
+        "speed": 95
+      },
+      "abilities": {
+        "primary": "Vital Spirit",
+        "secondary": "Anger Point",
+        "hidden": "Defiant"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/057.png",
+      "cryPath": "assets/cries/kanto/057.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 58,
+      "name": "Growlithe",
+      "types": [
+        "Fire"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 55,
+        "attack": 70,
+        "defense": 45,
+        "specialAttack": 70,
+        "specialDefense": 50,
+        "speed": 60
+      },
+      "abilities": {
+        "primary": "Intimidate",
+        "secondary": "Flash Fire",
+        "hidden": "Justified"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/058.png",
+      "cryPath": "assets/cries/kanto/058.ogg",
+      "evolvesTo": [
+        59
+      ]
+    },
+    {
+      "number": 59,
+      "name": "Arcanine",
+      "types": [
+        "Fire"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 90,
+        "attack": 110,
+        "defense": 80,
+        "specialAttack": 100,
+        "specialDefense": 80,
+        "speed": 95
+      },
+      "abilities": {
+        "primary": "Intimidate",
+        "secondary": "Flash Fire",
+        "hidden": "Justified"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/059.png",
+      "cryPath": "assets/cries/kanto/059.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 60,
+      "name": "Poliwag",
+      "types": [
+        "Water"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 40,
+        "attack": 50,
+        "defense": 40,
+        "specialAttack": 40,
+        "specialDefense": 40,
+        "speed": 90
+      },
+      "abilities": {
+        "primary": "Water Absorb",
+        "secondary": "Damp",
+        "hidden": "Swift Swim"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/060.png",
+      "cryPath": "assets/cries/kanto/060.ogg",
+      "evolvesTo": [
+        61
+      ]
+    },
+    {
+      "number": 61,
+      "name": "Poliwhirl",
+      "types": [
+        "Water"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 65,
+        "attack": 65,
+        "defense": 65,
+        "specialAttack": 50,
+        "specialDefense": 50,
+        "speed": 90
+      },
+      "abilities": {
+        "primary": "Water Absorb",
+        "secondary": "Damp",
+        "hidden": "Swift Swim"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/061.png",
+      "cryPath": "assets/cries/kanto/061.ogg",
+      "evolvesTo": [
+        62
+      ]
+    },
+    {
+      "number": 62,
+      "name": "Poliwrath",
+      "types": [
+        "Water",
+        "Fighting"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 90,
+        "attack": 95,
+        "defense": 95,
+        "specialAttack": 70,
+        "specialDefense": 90,
+        "speed": 70
+      },
+      "abilities": {
+        "primary": "Water Absorb",
+        "secondary": "Damp",
+        "hidden": "Swift Swim"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/062.png",
+      "cryPath": "assets/cries/kanto/062.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 63,
+      "name": "Abra",
+      "types": [
+        "Psychic"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 25,
+        "attack": 20,
+        "defense": 15,
+        "specialAttack": 105,
+        "specialDefense": 55,
+        "speed": 90
+      },
+      "abilities": {
+        "primary": "Synchronize",
+        "secondary": "Inner Focus",
+        "hidden": "Magic Guard"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/063.png",
+      "cryPath": "assets/cries/kanto/063.ogg",
+      "evolvesTo": [
+        64
+      ]
+    },
+    {
+      "number": 64,
+      "name": "Kadabra",
+      "types": [
+        "Psychic"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 40,
+        "attack": 35,
+        "defense": 30,
+        "specialAttack": 120,
+        "specialDefense": 70,
+        "speed": 105
+      },
+      "abilities": {
+        "primary": "Synchronize",
+        "secondary": "Inner Focus",
+        "hidden": "Magic Guard"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/064.png",
+      "cryPath": "assets/cries/kanto/064.ogg",
+      "evolvesTo": [
+        65
+      ]
+    },
+    {
+      "number": 65,
+      "name": "Alakazam",
+      "types": [
+        "Psychic"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 55,
+        "attack": 50,
+        "defense": 45,
+        "specialAttack": 135,
+        "specialDefense": 95,
+        "speed": 120
+      },
+      "abilities": {
+        "primary": "Synchronize",
+        "secondary": "Inner Focus",
+        "hidden": "Magic Guard"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/065.png",
+      "cryPath": "assets/cries/kanto/065.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 66,
+      "name": "Machop",
+      "types": [
+        "Fighting"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 70,
+        "attack": 80,
+        "defense": 50,
+        "specialAttack": 35,
+        "specialDefense": 35,
+        "speed": 35
+      },
+      "abilities": {
+        "primary": "Guts",
+        "secondary": "No Guard",
+        "hidden": "Steadfast"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/066.png",
+      "cryPath": "assets/cries/kanto/066.ogg",
+      "evolvesTo": [
+        67
+      ]
+    },
+    {
+      "number": 67,
+      "name": "Machoke",
+      "types": [
+        "Fighting"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 80,
+        "attack": 100,
+        "defense": 70,
+        "specialAttack": 50,
+        "specialDefense": 60,
+        "speed": 45
+      },
+      "abilities": {
+        "primary": "Guts",
+        "secondary": "No Guard",
+        "hidden": "Steadfast"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/067.png",
+      "cryPath": "assets/cries/kanto/067.ogg",
+      "evolvesTo": [
+        68
+      ]
+    },
+    {
+      "number": 68,
+      "name": "Machamp",
+      "types": [
+        "Fighting"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 90,
+        "attack": 130,
+        "defense": 80,
+        "specialAttack": 65,
+        "specialDefense": 85,
+        "speed": 55
+      },
+      "abilities": {
+        "primary": "Guts",
+        "secondary": "No Guard",
+        "hidden": "Steadfast"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/068.png",
+      "cryPath": "assets/cries/kanto/068.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 69,
+      "name": "Bellsprout",
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 50,
+        "attack": 75,
+        "defense": 35,
+        "specialAttack": 70,
+        "specialDefense": 30,
+        "speed": 40
+      },
+      "abilities": {
+        "primary": "Chlorophyll",
+        "secondary": "",
+        "hidden": "Gluttony"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/069.png",
+      "cryPath": "assets/cries/kanto/069.ogg",
+      "evolvesTo": [
+        70
+      ]
+    },
+    {
+      "number": 70,
+      "name": "Weepinbell",
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 65,
+        "attack": 90,
+        "defense": 50,
+        "specialAttack": 85,
+        "specialDefense": 45,
+        "speed": 55
+      },
+      "abilities": {
+        "primary": "Chlorophyll",
+        "secondary": "",
+        "hidden": "Gluttony"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/070.png",
+      "cryPath": "assets/cries/kanto/070.ogg",
+      "evolvesTo": [
+        71
+      ]
+    },
+    {
+      "number": 71,
+      "name": "Victreebel",
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 80,
+        "attack": 105,
+        "defense": 65,
+        "specialAttack": 100,
+        "specialDefense": 70,
+        "speed": 70
+      },
+      "abilities": {
+        "primary": "Chlorophyll",
+        "secondary": "",
+        "hidden": "Gluttony"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/071.png",
+      "cryPath": "assets/cries/kanto/071.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 72,
+      "name": "Tentacool",
+      "types": [
+        "Water",
+        "Poison"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 40,
+        "attack": 40,
+        "defense": 35,
+        "specialAttack": 50,
+        "specialDefense": 100,
+        "speed": 70
+      },
+      "abilities": {
+        "primary": "Clear Body",
+        "secondary": "Liquid Ooze",
+        "hidden": "Rain Dish"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/072.png",
+      "cryPath": "assets/cries/kanto/072.ogg",
+      "evolvesTo": [
+        73
+      ]
+    },
+    {
+      "number": 73,
+      "name": "Tentacruel",
+      "types": [
+        "Water",
+        "Poison"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 80,
+        "attack": 70,
+        "defense": 65,
+        "specialAttack": 80,
+        "specialDefense": 120,
+        "speed": 100
+      },
+      "abilities": {
+        "primary": "Clear Body",
+        "secondary": "Liquid Ooze",
+        "hidden": "Rain Dish"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/073.png",
+      "cryPath": "assets/cries/kanto/073.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 74,
+      "name": "Geodude",
+      "types": [
+        "Rock",
+        "Ground"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 40,
+        "attack": 80,
+        "defense": 100,
+        "specialAttack": 30,
+        "specialDefense": 30,
+        "speed": 20
+      },
+      "abilities": {
+        "primary": "Rock Head",
+        "secondary": "Sturdy",
+        "hidden": "Sand Veil"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/074.png",
+      "cryPath": "assets/cries/kanto/074.ogg",
+      "evolvesTo": [
+        75
+      ]
+    },
+    {
+      "number": 75,
+      "name": "Graveler",
+      "types": [
+        "Rock",
+        "Ground"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 55,
+        "attack": 95,
+        "defense": 115,
+        "specialAttack": 45,
+        "specialDefense": 45,
+        "speed": 35
+      },
+      "abilities": {
+        "primary": "Rock Head",
+        "secondary": "Sturdy",
+        "hidden": "Sand Veil"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/075.png",
+      "cryPath": "assets/cries/kanto/075.ogg",
+      "evolvesTo": [
+        76
+      ]
+    },
+    {
+      "number": 76,
+      "name": "Golem",
+      "types": [
+        "Rock",
+        "Ground"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 80,
+        "attack": 120,
+        "defense": 130,
+        "specialAttack": 55,
+        "specialDefense": 65,
+        "speed": 45
+      },
+      "abilities": {
+        "primary": "Rock Head",
+        "secondary": "Sturdy",
+        "hidden": "Sand Veil"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/076.png",
+      "cryPath": "assets/cries/kanto/076.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 77,
+      "name": "Ponyta",
+      "types": [
+        "Fire"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 50,
+        "attack": 85,
+        "defense": 55,
+        "specialAttack": 65,
+        "specialDefense": 65,
+        "speed": 90
+      },
+      "abilities": {
+        "primary": "Run Away",
+        "secondary": "Flash Fire",
+        "hidden": "Flame Body"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/077.png",
+      "cryPath": "assets/cries/kanto/077.ogg",
+      "evolvesTo": [
+        78
+      ]
+    },
+    {
+      "number": 78,
+      "name": "Rapidash",
+      "types": [
+        "Fire"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 65,
+        "attack": 100,
+        "defense": 70,
+        "specialAttack": 80,
+        "specialDefense": 80,
+        "speed": 105
+      },
+      "abilities": {
+        "primary": "Run Away",
+        "secondary": "Flash Fire",
+        "hidden": "Flame Body"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/078.png",
+      "cryPath": "assets/cries/kanto/078.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 79,
+      "name": "Slowpoke",
+      "types": [
+        "Water",
+        "Psychic"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 90,
+        "attack": 65,
+        "defense": 65,
+        "specialAttack": 40,
+        "specialDefense": 40,
+        "speed": 15
+      },
+      "abilities": {
+        "primary": "Oblivious",
+        "secondary": "Own Tempo",
+        "hidden": "Regenerator"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/079.png",
+      "cryPath": "assets/cries/kanto/079.ogg",
+      "evolvesTo": [
+        80
+      ]
+    },
+    {
+      "number": 80,
+      "name": "Slowbro",
+      "types": [
+        "Water",
+        "Psychic"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 95,
+        "attack": 75,
+        "defense": 110,
+        "specialAttack": 100,
+        "specialDefense": 80,
+        "speed": 30
+      },
+      "abilities": {
+        "primary": "Oblivious",
+        "secondary": "Own Tempo",
+        "hidden": "Regenerator"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/080.png",
+      "cryPath": "assets/cries/kanto/080.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 81,
+      "name": "Magnemite",
+      "types": [
+        "Electric",
+        "Steel"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 25,
+        "attack": 35,
+        "defense": 70,
+        "specialAttack": 95,
+        "specialDefense": 55,
+        "speed": 45
+      },
+      "abilities": {
+        "primary": "Magnet Pull",
+        "secondary": "Sturdy",
+        "hidden": "Analytic"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/081.png",
+      "cryPath": "assets/cries/kanto/081.ogg",
+      "evolvesTo": [
+        82
+      ]
+    },
+    {
+      "number": 82,
+      "name": "Magneton",
+      "types": [
+        "Electric",
+        "Steel"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 50,
+        "attack": 60,
+        "defense": 95,
+        "specialAttack": 120,
+        "specialDefense": 70,
+        "speed": 70
+      },
+      "abilities": {
+        "primary": "Magnet Pull",
+        "secondary": "Sturdy",
+        "hidden": "Analytic"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/082.png",
+      "cryPath": "assets/cries/kanto/082.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 83,
+      "name": "Farfetchd",
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 52,
+        "attack": 90,
+        "defense": 55,
+        "specialAttack": 58,
+        "specialDefense": 62,
+        "speed": 60
+      },
+      "abilities": {
+        "primary": "Keen Eye",
+        "secondary": "Inner Focus",
+        "hidden": "Defiant"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/083.png",
+      "cryPath": "assets/cries/kanto/083.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 84,
+      "name": "Doduo",
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 35,
+        "attack": 85,
+        "defense": 45,
+        "specialAttack": 35,
+        "specialDefense": 35,
+        "speed": 75
+      },
+      "abilities": {
+        "primary": "Run Away",
+        "secondary": "Early Bird",
+        "hidden": "Tangled Feet"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/084.png",
+      "cryPath": "assets/cries/kanto/084.ogg",
+      "evolvesTo": [
+        85
+      ]
+    },
+    {
+      "number": 85,
+      "name": "Dodrio",
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 60,
+        "attack": 110,
+        "defense": 70,
+        "specialAttack": 60,
+        "specialDefense": 60,
+        "speed": 110
+      },
+      "abilities": {
+        "primary": "Run Away",
+        "secondary": "Early Bird",
+        "hidden": "Tangled Feet"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/085.png",
+      "cryPath": "assets/cries/kanto/085.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 86,
+      "name": "Seel",
+      "types": [
+        "Water"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 65,
+        "attack": 45,
+        "defense": 55,
+        "specialAttack": 45,
+        "specialDefense": 70,
+        "speed": 45
+      },
+      "abilities": {
+        "primary": "Thick Fat",
+        "secondary": "Hydration",
+        "hidden": "Ice Body"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/086.png",
+      "cryPath": "assets/cries/kanto/086.ogg",
+      "evolvesTo": [
+        87
+      ]
+    },
+    {
+      "number": 87,
+      "name": "Dewgong",
+      "types": [
+        "Water",
+        "Ice"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 90,
+        "attack": 70,
+        "defense": 80,
+        "specialAttack": 70,
+        "specialDefense": 95,
+        "speed": 70
+      },
+      "abilities": {
+        "primary": "Thick Fat",
+        "secondary": "Hydration",
+        "hidden": "Ice Body"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/087.png",
+      "cryPath": "assets/cries/kanto/087.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 88,
+      "name": "Grimer",
+      "types": [
+        "Poison"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 80,
+        "attack": 80,
+        "defense": 50,
+        "specialAttack": 40,
+        "specialDefense": 50,
+        "speed": 25
+      },
+      "abilities": {
+        "primary": "Stench",
+        "secondary": "Sticky Hold",
+        "hidden": "Poison Touch"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/088.png",
+      "cryPath": "assets/cries/kanto/088.ogg",
+      "evolvesTo": [
+        89
+      ]
+    },
+    {
+      "number": 89,
+      "name": "Muk",
+      "types": [
+        "Poison"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 105,
+        "attack": 105,
+        "defense": 75,
+        "specialAttack": 65,
+        "specialDefense": 100,
+        "speed": 50
+      },
+      "abilities": {
+        "primary": "Stench",
+        "secondary": "Sticky Hold",
+        "hidden": "Poison Touch"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/089.png",
+      "cryPath": "assets/cries/kanto/089.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 90,
+      "name": "Shellder",
+      "types": [
+        "Water"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 30,
+        "attack": 65,
+        "defense": 100,
+        "specialAttack": 45,
+        "specialDefense": 25,
+        "speed": 40
+      },
+      "abilities": {
+        "primary": "Shell Armor",
+        "secondary": "Skill Link",
+        "hidden": "Overcoat"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/090.png",
+      "cryPath": "assets/cries/kanto/090.ogg",
+      "evolvesTo": [
+        91
+      ]
+    },
+    {
+      "number": 91,
+      "name": "Cloyster",
+      "types": [
+        "Water",
+        "Ice"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 50,
+        "attack": 95,
+        "defense": 180,
+        "specialAttack": 85,
+        "specialDefense": 45,
+        "speed": 70
+      },
+      "abilities": {
+        "primary": "Shell Armor",
+        "secondary": "Skill Link",
+        "hidden": "Overcoat"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/091.png",
+      "cryPath": "assets/cries/kanto/091.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 92,
+      "name": "Gastly",
+      "types": [
+        "Ghost",
+        "Poison"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 30,
+        "attack": 35,
+        "defense": 30,
+        "specialAttack": 100,
+        "specialDefense": 35,
+        "speed": 80
+      },
+      "abilities": {
+        "primary": "Levitate",
+        "secondary": "",
+        "hidden": ""
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/092.png",
+      "cryPath": "assets/cries/kanto/092.ogg",
+      "evolvesTo": [
+        93
+      ]
+    },
+    {
+      "number": 93,
+      "name": "Haunter",
+      "types": [
+        "Ghost",
+        "Poison"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 45,
+        "attack": 50,
+        "defense": 45,
+        "specialAttack": 115,
+        "specialDefense": 55,
+        "speed": 95
+      },
+      "abilities": {
+        "primary": "Levitate",
+        "secondary": "",
+        "hidden": ""
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/093.png",
+      "cryPath": "assets/cries/kanto/093.ogg",
+      "evolvesTo": [
+        94
+      ]
+    },
+    {
+      "number": 94,
+      "name": "Gengar",
+      "types": [
+        "Ghost",
+        "Poison"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 60,
+        "attack": 65,
+        "defense": 60,
+        "specialAttack": 130,
+        "specialDefense": 75,
+        "speed": 110
+      },
+      "abilities": {
+        "primary": "Cursed Body",
+        "secondary": "",
+        "hidden": ""
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/094.png",
+      "cryPath": "assets/cries/kanto/094.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 95,
+      "name": "Onix",
+      "types": [
+        "Rock",
+        "Ground"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 35,
+        "attack": 45,
+        "defense": 160,
+        "specialAttack": 30,
+        "specialDefense": 45,
+        "speed": 70
+      },
+      "abilities": {
+        "primary": "Insomnia",
+        "secondary": "Forewarn",
+        "hidden": "Inner Focus"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/095.png",
+      "cryPath": "assets/cries/kanto/095.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 96,
+      "name": "Drowzee",
+      "types": [
+        "Psychic"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 60,
+        "attack": 48,
+        "defense": 45,
+        "specialAttack": 43,
+        "specialDefense": 90,
+        "speed": 42
+      },
+      "abilities": {
+        "primary": "Insomnia",
+        "secondary": "Forewarn",
+        "hidden": "Inner Focus"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/096.png",
+      "cryPath": "assets/cries/kanto/096.ogg",
+      "evolvesTo": [
+        97
+      ]
+    },
+    {
+      "number": 97,
+      "name": "Hypno",
+      "types": [
+        "Psychic"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 85,
+        "attack": 73,
+        "defense": 70,
+        "specialAttack": 73,
+        "specialDefense": 115,
+        "speed": 67
+      },
+      "abilities": {
+        "primary": "Hyper Cutter",
+        "secondary": "Shell Armor",
+        "hidden": "Sheer Force"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/097.png",
+      "cryPath": "assets/cries/kanto/097.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 98,
+      "name": "Krabby",
+      "types": [
+        "Water"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 30,
+        "attack": 105,
+        "defense": 90,
+        "specialAttack": 25,
+        "specialDefense": 25,
+        "speed": 50
+      },
+      "abilities": {
+        "primary": "Hyper Cutter",
+        "secondary": "Shell Armor",
+        "hidden": "Sheer Force"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/098.png",
+      "cryPath": "assets/cries/kanto/098.ogg",
+      "evolvesTo": [
+        99
+      ]
+    },
+    {
+      "number": 99,
+      "name": "Kingler",
+      "types": [
+        "Water"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 55,
+        "attack": 130,
+        "defense": 115,
+        "specialAttack": 50,
+        "specialDefense": 50,
+        "speed": 75
+      },
+      "abilities": {
+        "primary": "Soundproof",
+        "secondary": "Static",
+        "hidden": "Aftermath"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/099.png",
+      "cryPath": "assets/cries/kanto/099.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 100,
+      "name": "Voltorb",
+      "types": [
+        "Electric"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 40,
+        "attack": 30,
+        "defense": 50,
+        "specialAttack": 55,
+        "specialDefense": 55,
+        "speed": 100
+      },
+      "abilities": {
+        "primary": "Soundproof",
+        "secondary": "Static",
+        "hidden": "Aftermath"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/100.png",
+      "cryPath": "assets/cries/kanto/100.ogg",
+      "evolvesTo": [
+        101
+      ]
+    },
+    {
+      "number": 101,
+      "name": "Electrode",
+      "types": [
+        "Electric"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 60,
+        "attack": 50,
+        "defense": 70,
+        "specialAttack": 80,
+        "specialDefense": 80,
+        "speed": 150
+      },
+      "abilities": {
+        "primary": "Soundproof",
+        "secondary": "Static",
+        "hidden": "Aftermath"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/101.png",
+      "cryPath": "assets/cries/kanto/101.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 102,
+      "name": "Exeggcute",
+      "types": [
+        "Grass",
+        "Psychic"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 60,
+        "attack": 40,
+        "defense": 80,
+        "specialAttack": 60,
+        "specialDefense": 45,
+        "speed": 40
+      },
+      "abilities": {
+        "primary": "Chlorophyll",
+        "secondary": "",
+        "hidden": "Harvest"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/102.png",
+      "cryPath": "assets/cries/kanto/102.ogg",
+      "evolvesTo": [
+        103
+      ]
+    },
+    {
+      "number": 103,
+      "name": "Exeggutor",
+      "types": [
+        "Grass",
+        "Psychic"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 95,
+        "attack": 95,
+        "defense": 85,
+        "specialAttack": 125,
+        "specialDefense": 75,
+        "speed": 55
+      },
+      "abilities": {
+        "primary": "Chlorophyll",
+        "secondary": "",
+        "hidden": "Harvest"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/103.png",
+      "cryPath": "assets/cries/kanto/103.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 104,
+      "name": "Cubone",
+      "types": [
+        "Ground"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 50,
+        "attack": 50,
+        "defense": 95,
+        "specialAttack": 40,
+        "specialDefense": 50,
+        "speed": 35
+      },
+      "abilities": {
+        "primary": "Rock Head",
+        "secondary": "Lightning Rod",
+        "hidden": "Battle Armor"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/104.png",
+      "cryPath": "assets/cries/kanto/104.ogg",
+      "evolvesTo": [
+        105
+      ]
+    },
+    {
+      "number": 105,
+      "name": "Marowak",
+      "types": [
+        "Ground"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 60,
+        "attack": 80,
+        "defense": 110,
+        "specialAttack": 50,
+        "specialDefense": 80,
+        "speed": 45
+      },
+      "abilities": {
+        "primary": "Rock Head",
+        "secondary": "Lightning Rod",
+        "hidden": "Battle Armor"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/105.png",
+      "cryPath": "assets/cries/kanto/105.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 106,
+      "name": "Hitmonlee",
+      "types": [
+        "Fighting"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 50,
+        "attack": 120,
+        "defense": 53,
+        "specialAttack": 35,
+        "specialDefense": 110,
+        "speed": 87
+      },
+      "abilities": {
+        "primary": "Limber",
+        "secondary": "Reckless",
+        "hidden": "Unburden"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/106.png",
+      "cryPath": "assets/cries/kanto/106.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 107,
+      "name": "Hitmonchan",
+      "types": [
+        "Fighting"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 50,
+        "attack": 105,
+        "defense": 79,
+        "specialAttack": 35,
+        "specialDefense": 110,
+        "speed": 76
+      },
+      "abilities": {
+        "primary": "Keen Eye",
+        "secondary": "Iron Fist",
+        "hidden": "Inner Focus"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/107.png",
+      "cryPath": "assets/cries/kanto/107.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 108,
+      "name": "Lickitung",
+      "types": [
+        "Normal"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 90,
+        "attack": 55,
+        "defense": 75,
+        "specialAttack": 60,
+        "specialDefense": 75,
+        "speed": 30
+      },
+      "abilities": {
+        "primary": "Own Tempo",
+        "secondary": "Oblivious",
+        "hidden": "Cloud Nine"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/108.png",
+      "cryPath": "assets/cries/kanto/108.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 109,
+      "name": "Koffing",
+      "types": [
+        "Poison"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 40,
+        "attack": 65,
+        "defense": 95,
+        "specialAttack": 60,
+        "specialDefense": 45,
+        "speed": 35
+      },
+      "abilities": {
+        "primary": "Levitate",
+        "secondary": "",
+        "hidden": "Stench"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/109.png",
+      "cryPath": "assets/cries/kanto/109.ogg",
+      "evolvesTo": [
+        110
+      ]
+    },
+    {
+      "number": 110,
+      "name": "Weezing",
+      "types": [
+        "Poison"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 65,
+        "attack": 90,
+        "defense": 120,
+        "specialAttack": 85,
+        "specialDefense": 70,
+        "speed": 60
+      },
+      "abilities": {
+        "primary": "Levitate",
+        "secondary": "",
+        "hidden": "Stench"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/110.png",
+      "cryPath": "assets/cries/kanto/110.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 111,
+      "name": "Rhyhorn",
+      "types": [
+        "Ground",
+        "Rock"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 80,
+        "attack": 85,
+        "defense": 95,
+        "specialAttack": 30,
+        "specialDefense": 30,
+        "speed": 25
+      },
+      "abilities": {
+        "primary": "Lightning Rod",
+        "secondary": "Rock Head",
+        "hidden": "Reckless"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/111.png",
+      "cryPath": "assets/cries/kanto/111.ogg",
+      "evolvesTo": [
+        112
+      ]
+    },
+    {
+      "number": 112,
+      "name": "Rhydon",
+      "types": [
+        "Ground",
+        "Rock"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 105,
+        "attack": 130,
+        "defense": 120,
+        "specialAttack": 45,
+        "specialDefense": 45,
+        "speed": 40
+      },
+      "abilities": {
+        "primary": "Lightning Rod",
+        "secondary": "Rock Head",
+        "hidden": "Reckless"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/112.png",
+      "cryPath": "assets/cries/kanto/112.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 113,
+      "name": "Chansey",
+      "types": [
+        "Normal"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 250,
+        "attack": 5,
+        "defense": 5,
+        "specialAttack": 35,
+        "specialDefense": 105,
+        "speed": 50
+      },
+      "abilities": {
+        "primary": "Natural Cure",
+        "secondary": "Serene Grace",
+        "hidden": "Healer"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/113.png",
+      "cryPath": "assets/cries/kanto/113.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 114,
+      "name": "Tangela",
+      "types": [
+        "Grass"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 65,
+        "attack": 55,
+        "defense": 115,
+        "specialAttack": 100,
+        "specialDefense": 40,
+        "speed": 60
+      },
+      "abilities": {
+        "primary": "Chlorophyll",
+        "secondary": "Leaf Guard",
+        "hidden": "Regenerator"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/114.png",
+      "cryPath": "assets/cries/kanto/114.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 115,
+      "name": "Kangaskhan",
+      "types": [
+        "Normal"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 105,
+        "attack": 95,
+        "defense": 80,
+        "specialAttack": 40,
+        "specialDefense": 80,
+        "speed": 90
+      },
+      "abilities": {
+        "primary": "Early Bird",
+        "secondary": "Scrappy",
+        "hidden": "Inner Focus"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/115.png",
+      "cryPath": "assets/cries/kanto/115.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 116,
+      "name": "Horsea",
+      "types": [
+        "Water"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 30,
+        "attack": 40,
+        "defense": 70,
+        "specialAttack": 70,
+        "specialDefense": 25,
+        "speed": 60
+      },
+      "abilities": {
+        "primary": "Swift Swim",
+        "secondary": "Sniper",
+        "hidden": "Damp"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/116.png",
+      "cryPath": "assets/cries/kanto/116.ogg",
+      "evolvesTo": [
+        117
+      ]
+    },
+    {
+      "number": 117,
+      "name": "Seadra",
+      "types": [
+        "Water"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 55,
+        "attack": 65,
+        "defense": 95,
+        "specialAttack": 95,
+        "specialDefense": 45,
+        "speed": 85
+      },
+      "abilities": {
+        "primary": "Poison Point",
+        "secondary": "Sniper",
+        "hidden": "Damp"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/117.png",
+      "cryPath": "assets/cries/kanto/117.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 118,
+      "name": "Goldeen",
+      "types": [
+        "Water"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 45,
+        "attack": 67,
+        "defense": 60,
+        "specialAttack": 35,
+        "specialDefense": 50,
+        "speed": 63
+      },
+      "abilities": {
+        "primary": "Swift Swim",
+        "secondary": "Water Veil",
+        "hidden": "Lightning Rod"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/118.png",
+      "cryPath": "assets/cries/kanto/118.ogg",
+      "evolvesTo": [
+        119
+      ]
+    },
+    {
+      "number": 119,
+      "name": "Seaking",
+      "types": [
+        "Water"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 80,
+        "attack": 92,
+        "defense": 65,
+        "specialAttack": 65,
+        "specialDefense": 80,
+        "speed": 68
+      },
+      "abilities": {
+        "primary": "Swift Swim",
+        "secondary": "Water Veil",
+        "hidden": "Lightning Rod"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/119.png",
+      "cryPath": "assets/cries/kanto/119.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 120,
+      "name": "Staryu",
+      "types": [
+        "Water"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 30,
+        "attack": 45,
+        "defense": 55,
+        "specialAttack": 70,
+        "specialDefense": 55,
+        "speed": 85
+      },
+      "abilities": {
+        "primary": "Illuminate",
+        "secondary": "Natural Cure",
+        "hidden": "Analytic"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/120.png",
+      "cryPath": "assets/cries/kanto/120.ogg",
+      "evolvesTo": [
+        121
+      ]
+    },
+    {
+      "number": 121,
+      "name": "Starmie",
+      "types": [
+        "Water",
+        "Psychic"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 60,
+        "attack": 75,
+        "defense": 85,
+        "specialAttack": 100,
+        "specialDefense": 85,
+        "speed": 115
+      },
+      "abilities": {
+        "primary": "Illuminate",
+        "secondary": "Natural Cure",
+        "hidden": "Analytic"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/121.png",
+      "cryPath": "assets/cries/kanto/121.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 122,
+      "name": "Mr. Mime",
+      "types": [
+        "Psychic",
+        "Fairy"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 40,
+        "attack": 45,
+        "defense": 65,
+        "specialAttack": 100,
+        "specialDefense": 120,
+        "speed": 90
+      },
+      "abilities": {
+        "primary": "Soundproof",
+        "secondary": "Filter",
+        "hidden": "Technician"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/122.png",
+      "cryPath": "assets/cries/kanto/122.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 123,
+      "name": "Scyther",
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 70,
+        "attack": 110,
+        "defense": 80,
+        "specialAttack": 55,
+        "specialDefense": 80,
+        "speed": 105
+      },
+      "abilities": {
+        "primary": "Swarm",
+        "secondary": "Technician",
+        "hidden": "Steadfast"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/123.png",
+      "cryPath": "assets/cries/kanto/123.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 124,
+      "name": "Jynx",
+      "types": [
+        "Ice",
+        "Psychic"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 65,
+        "attack": 50,
+        "defense": 35,
+        "specialAttack": 115,
+        "specialDefense": 95,
+        "speed": 95
+      },
+      "abilities": {
+        "primary": "Oblivious",
+        "secondary": "Forewarn",
+        "hidden": "Dry Skin"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/124.png",
+      "cryPath": "assets/cries/kanto/124.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 125,
+      "name": "Electabuzz",
+      "types": [
+        "Electric"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 65,
+        "attack": 83,
+        "defense": 57,
+        "specialAttack": 95,
+        "specialDefense": 85,
+        "speed": 105
+      },
+      "abilities": {
+        "primary": "Static",
+        "secondary": "",
+        "hidden": "Vital Spirit"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/125.png",
+      "cryPath": "assets/cries/kanto/125.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 126,
+      "name": "Magmar",
+      "types": [
+        "Fire"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 65,
+        "attack": 95,
+        "defense": 57,
+        "specialAttack": 100,
+        "specialDefense": 85,
+        "speed": 93
+      },
+      "abilities": {
+        "primary": "Flame Body",
+        "secondary": "",
+        "hidden": "Vital Spirit"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/126.png",
+      "cryPath": "assets/cries/kanto/126.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 127,
+      "name": "Pinsir",
+      "types": [
+        "Bug"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 65,
+        "attack": 125,
+        "defense": 100,
+        "specialAttack": 55,
+        "specialDefense": 70,
+        "speed": 85
+      },
+      "abilities": {
+        "primary": "Hyper Cutter",
+        "secondary": "Mold Breaker",
+        "hidden": "Moxie"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/127.png",
+      "cryPath": "assets/cries/kanto/127.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 128,
+      "name": "Tauros",
+      "types": [
+        "Normal"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 75,
+        "attack": 100,
+        "defense": 95,
+        "specialAttack": 40,
+        "specialDefense": 70,
+        "speed": 110
+      },
+      "abilities": {
+        "primary": "Intimidate",
+        "secondary": "Anger Point",
+        "hidden": "Sheer Force"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/128.png",
+      "cryPath": "assets/cries/kanto/128.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 129,
+      "name": "Magikarp",
+      "types": [
+        "Water"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 20,
+        "attack": 10,
+        "defense": 55,
+        "specialAttack": 15,
+        "specialDefense": 20,
+        "speed": 80
+      },
+      "abilities": {
+        "primary": "Swift Swim",
+        "secondary": "",
+        "hidden": "Rattled"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/129.png",
+      "cryPath": "assets/cries/kanto/129.ogg",
+      "evolvesTo": [
+        130
+      ]
+    },
+    {
+      "number": 130,
+      "name": "Gyarados",
+      "types": [
+        "Water",
+        "Flying"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 95,
+        "attack": 125,
+        "defense": 79,
+        "specialAttack": 60,
+        "specialDefense": 100,
+        "speed": 81
+      },
+      "abilities": {
+        "primary": "Intimidate",
+        "secondary": "Moxie",
+        "hidden": "Rattled"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/130.png",
+      "cryPath": "assets/cries/kanto/130.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 131,
+      "name": "Lapras",
+      "types": [
+        "Water",
+        "Ice"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 130,
+        "attack": 85,
+        "defense": 80,
+        "specialAttack": 85,
+        "specialDefense": 95,
+        "speed": 60
+      },
+      "abilities": {
+        "primary": "Water Absorb",
+        "secondary": "Shell Armor",
+        "hidden": "Hydration"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/131.png",
+      "cryPath": "assets/cries/kanto/131.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 132,
+      "name": "Ditto",
+      "types": [
+        "Normal"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 48,
+        "attack": 48,
+        "defense": 48,
+        "specialAttack": 48,
+        "specialDefense": 48,
+        "speed": 48
+      },
+      "abilities": {
+        "primary": "Limber",
+        "secondary": "",
+        "hidden": "Imposter"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/132.png",
+      "cryPath": "assets/cries/kanto/132.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 133,
+      "name": "Eevee",
+      "types": [
+        "Normal"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 55,
+        "attack": 55,
+        "defense": 50,
+        "specialAttack": 45,
+        "specialDefense": 65,
+        "speed": 55
+      },
+      "abilities": {
+        "primary": "Run Away",
+        "secondary": "Adaptability",
+        "hidden": "Anticipation"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/133.png",
+      "cryPath": "assets/cries/kanto/133.ogg",
+      "evolvesTo": [
+        134,
+        135,
+        136
+      ]
+    },
+    {
+      "number": 134,
+      "name": "Vaporeon",
+      "types": [
+        "Water"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 130,
+        "attack": 65,
+        "defense": 60,
+        "specialAttack": 110,
+        "specialDefense": 95,
+        "speed": 65
+      },
+      "abilities": {
+        "primary": "Water Absorb",
+        "secondary": "",
+        "hidden": "Hydration"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/134.png",
+      "cryPath": "assets/cries/kanto/134.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 135,
+      "name": "Jolteon",
+      "types": [
+        "Electric"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 65,
+        "attack": 65,
+        "defense": 60,
+        "specialAttack": 110,
+        "specialDefense": 95,
+        "speed": 130
+      },
+      "abilities": {
+        "primary": "Volt Absorb",
+        "secondary": "",
+        "hidden": "Quick Feet"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/135.png",
+      "cryPath": "assets/cries/kanto/135.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 136,
+      "name": "Flareon",
+      "types": [
+        "Fire"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 65,
+        "attack": 130,
+        "defense": 60,
+        "specialAttack": 95,
+        "specialDefense": 110,
+        "speed": 65
+      },
+      "abilities": {
+        "primary": "Flash Fire",
+        "secondary": "",
+        "hidden": "Guts"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/136.png",
+      "cryPath": "assets/cries/kanto/136.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 137,
+      "name": "Porygon",
+      "types": [
+        "Normal"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 65,
+        "attack": 60,
+        "defense": 70,
+        "specialAttack": 85,
+        "specialDefense": 75,
+        "speed": 40
+      },
+      "abilities": {
+        "primary": "Trace",
+        "secondary": "Download",
+        "hidden": "Analytic"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/137.png",
+      "cryPath": "assets/cries/kanto/137.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 138,
+      "name": "Omanyte",
+      "types": [
+        "Rock",
+        "Water"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 35,
+        "attack": 40,
+        "defense": 100,
+        "specialAttack": 90,
+        "specialDefense": 55,
+        "speed": 35
+      },
+      "abilities": {
+        "primary": "Swift Swim",
+        "secondary": "Shell Armor",
+        "hidden": "Weak Armor"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/138.png",
+      "cryPath": "assets/cries/kanto/138.ogg",
+      "evolvesTo": [
+        139
+      ]
+    },
+    {
+      "number": 139,
+      "name": "Omastar",
+      "types": [
+        "Rock",
+        "Water"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 70,
+        "attack": 60,
+        "defense": 125,
+        "specialAttack": 115,
+        "specialDefense": 70,
+        "speed": 55
+      },
+      "abilities": {
+        "primary": "Swift Swim",
+        "secondary": "Shell Armor",
+        "hidden": "Weak Armor"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/139.png",
+      "cryPath": "assets/cries/kanto/139.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 140,
+      "name": "Kabuto",
+      "types": [
+        "Rock",
+        "Water"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 30,
+        "attack": 80,
+        "defense": 90,
+        "specialAttack": 55,
+        "specialDefense": 45,
+        "speed": 55
+      },
+      "abilities": {
+        "primary": "Swift Swim",
+        "secondary": "Battle Armor",
+        "hidden": "Weak Armor"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/140.png",
+      "cryPath": "assets/cries/kanto/140.ogg",
+      "evolvesTo": [
+        141
+      ]
+    },
+    {
+      "number": 141,
+      "name": "Kabutops",
+      "types": [
+        "Rock",
+        "Water"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 60,
+        "attack": 115,
+        "defense": 105,
+        "specialAttack": 65,
+        "specialDefense": 70,
+        "speed": 80
+      },
+      "abilities": {
+        "primary": "Swift Swim",
+        "secondary": "Battle Armor",
+        "hidden": "Weak Armor"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/141.png",
+      "cryPath": "assets/cries/kanto/141.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 142,
+      "name": "Aerodactyl",
+      "types": [
+        "Rock",
+        "Flying"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 80,
+        "attack": 105,
+        "defense": 65,
+        "specialAttack": 60,
+        "specialDefense": 75,
+        "speed": 130
+      },
+      "abilities": {
+        "primary": "Rock Head",
+        "secondary": "Pressure",
+        "hidden": "Unnerve"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/142.png",
+      "cryPath": "assets/cries/kanto/142.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 143,
+      "name": "Snorlax",
+      "types": [
+        "Normal"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 160,
+        "attack": 110,
+        "defense": 65,
+        "specialAttack": 65,
+        "specialDefense": 110,
+        "speed": 30
+      },
+      "abilities": {
+        "primary": "Immunity",
+        "secondary": "Thick Fat",
+        "hidden": "Gluttony"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/143.png",
+      "cryPath": "assets/cries/kanto/143.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 144,
+      "name": "Articuno",
+      "types": [
+        "Ice",
+        "Flying"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 90,
+        "attack": 85,
+        "defense": 100,
+        "specialAttack": 95,
+        "specialDefense": 125,
+        "speed": 85
+      },
+      "abilities": {
+        "primary": "Pressure",
+        "secondary": "",
+        "hidden": "Snow Cloak"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/144.png",
+      "cryPath": "assets/cries/kanto/144.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 145,
+      "name": "Zapdos",
+      "types": [
+        "Electric",
+        "Flying"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 90,
+        "attack": 90,
+        "defense": 85,
+        "specialAttack": 125,
+        "specialDefense": 90,
+        "speed": 100
+      },
+      "abilities": {
+        "primary": "Pressure",
+        "secondary": "",
+        "hidden": "Static"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/145.png",
+      "cryPath": "assets/cries/kanto/145.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 146,
+      "name": "Moltres",
+      "types": [
+        "Fire",
+        "Flying"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 90,
+        "attack": 100,
+        "defense": 90,
+        "specialAttack": 125,
+        "specialDefense": 85,
+        "speed": 90
+      },
+      "abilities": {
+        "primary": "Pressure",
+        "secondary": "",
+        "hidden": "Flame Body"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/146.png",
+      "cryPath": "assets/cries/kanto/146.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 147,
+      "name": "Dratini",
+      "types": [
+        "Dragon"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 41,
+        "attack": 64,
+        "defense": 45,
+        "specialAttack": 50,
+        "specialDefense": 50,
+        "speed": 50
+      },
+      "abilities": {
+        "primary": "Shed Skin",
+        "secondary": "",
+        "hidden": "Marvel Scale"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/147.png",
+      "cryPath": "assets/cries/kanto/147.ogg",
+      "evolvesTo": [
+        148
+      ]
+    },
+    {
+      "number": 148,
+      "name": "Dragonair",
+      "types": [
+        "Dragon"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 61,
+        "attack": 84,
+        "defense": 65,
+        "specialAttack": 70,
+        "specialDefense": 70,
+        "speed": 70
+      },
+      "abilities": {
+        "primary": "Shed Skin",
+        "secondary": "",
+        "hidden": "Marvel Scale"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/148.png",
+      "cryPath": "assets/cries/kanto/148.ogg",
+      "evolvesTo": [
+        149
+      ]
+    },
+    {
+      "number": 149,
+      "name": "Dragonite",
+      "types": [
+        "Dragon",
+        "Flying"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 91,
+        "attack": 134,
+        "defense": 95,
+        "specialAttack": 100,
+        "specialDefense": 100,
+        "speed": 80
+      },
+      "abilities": {
+        "primary": "Inner Focus",
+        "secondary": "",
+        "hidden": "Multiscale"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/149.png",
+      "cryPath": "assets/cries/kanto/149.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 150,
+      "name": "Mewtwo",
+      "types": [
+        "Psychic"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 106,
+        "attack": 110,
+        "defense": 90,
+        "specialAttack": 154,
+        "specialDefense": 90,
+        "speed": 130
+      },
+      "abilities": {
+        "primary": "Pressure",
+        "secondary": "",
+        "hidden": "Unnerve"
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/150.png",
+      "cryPath": "assets/cries/kanto/150.ogg",
+      "evolvesTo": []
+    },
+    {
+      "number": 151,
+      "name": "Mew",
+      "types": [
+        "Psychic"
+      ],
+      "generation": "Generation_I",
+      "region": "Kanto",
+      "stats": {
+        "hp": 100,
+        "attack": 100,
+        "defense": 100,
+        "specialAttack": 100,
+        "specialDefense": 100,
+        "speed": 100
+      },
+      "abilities": {
+        "primary": "Synchronize",
+        "secondary": "",
+        "hidden": ""
+      },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "",
+      "spritePath": "assets/sprites/kanto/151.png",
+      "cryPath": "assets/cries/kanto/151.ogg",
+      "evolvesTo": []
+    }
+  ]
+}
