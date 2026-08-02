@@ -180,29 +180,53 @@ app/Main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/neodex_gui.dir/build.make CMakeFiles/neodex_gui.dir/app/Main.cpp.s
 .PHONY : app/Main.cpp.s
 
-core/src/EvolutionDatabase.o: core/src/EvolutionDatabase.cpp.o
-.PHONY : core/src/EvolutionDatabase.o
+core/src/Card.o: core/src/Card.cpp.o
+.PHONY : core/src/Card.o
 
 # target to build an object file
-core/src/EvolutionDatabase.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/neodex_core.dir/build.make CMakeFiles/neodex_core.dir/core/src/EvolutionDatabase.cpp.o
-.PHONY : core/src/EvolutionDatabase.cpp.o
+core/src/Card.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neodex_core.dir/build.make CMakeFiles/neodex_core.dir/core/src/Card.cpp.o
+.PHONY : core/src/Card.cpp.o
 
-core/src/EvolutionDatabase.i: core/src/EvolutionDatabase.cpp.i
-.PHONY : core/src/EvolutionDatabase.i
+core/src/Card.i: core/src/Card.cpp.i
+.PHONY : core/src/Card.i
 
 # target to preprocess a source file
-core/src/EvolutionDatabase.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/neodex_core.dir/build.make CMakeFiles/neodex_core.dir/core/src/EvolutionDatabase.cpp.i
-.PHONY : core/src/EvolutionDatabase.cpp.i
+core/src/Card.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neodex_core.dir/build.make CMakeFiles/neodex_core.dir/core/src/Card.cpp.i
+.PHONY : core/src/Card.cpp.i
 
-core/src/EvolutionDatabase.s: core/src/EvolutionDatabase.cpp.s
-.PHONY : core/src/EvolutionDatabase.s
+core/src/Card.s: core/src/Card.cpp.s
+.PHONY : core/src/Card.s
 
 # target to generate assembly for a file
-core/src/EvolutionDatabase.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/neodex_core.dir/build.make CMakeFiles/neodex_core.dir/core/src/EvolutionDatabase.cpp.s
-.PHONY : core/src/EvolutionDatabase.cpp.s
+core/src/Card.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neodex_core.dir/build.make CMakeFiles/neodex_core.dir/core/src/Card.cpp.s
+.PHONY : core/src/Card.cpp.s
+
+core/src/CardDatabase.o: core/src/CardDatabase.cpp.o
+.PHONY : core/src/CardDatabase.o
+
+# target to build an object file
+core/src/CardDatabase.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neodex_core.dir/build.make CMakeFiles/neodex_core.dir/core/src/CardDatabase.cpp.o
+.PHONY : core/src/CardDatabase.cpp.o
+
+core/src/CardDatabase.i: core/src/CardDatabase.cpp.i
+.PHONY : core/src/CardDatabase.i
+
+# target to preprocess a source file
+core/src/CardDatabase.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neodex_core.dir/build.make CMakeFiles/neodex_core.dir/core/src/CardDatabase.cpp.i
+.PHONY : core/src/CardDatabase.cpp.i
+
+core/src/CardDatabase.s: core/src/CardDatabase.cpp.s
+.PHONY : core/src/CardDatabase.s
+
+# target to generate assembly for a file
+core/src/CardDatabase.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neodex_core.dir/build.make CMakeFiles/neodex_core.dir/core/src/CardDatabase.cpp.s
+.PHONY : core/src/CardDatabase.cpp.s
 
 core/src/JsonValue.o: core/src/JsonValue.cpp.o
 .PHONY : core/src/JsonValue.o
@@ -252,125 +276,77 @@ core/src/Main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/neodex_cli.dir/build.make CMakeFiles/neodex_cli.dir/core/src/Main.cpp.s
 .PHONY : core/src/Main.cpp.s
 
-core/src/PokedexDatabase.o: core/src/PokedexDatabase.cpp.o
-.PHONY : core/src/PokedexDatabase.o
+core/src/Pal.o: core/src/Pal.cpp.o
+.PHONY : core/src/Pal.o
 
 # target to build an object file
-core/src/PokedexDatabase.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/neodex_core.dir/build.make CMakeFiles/neodex_core.dir/core/src/PokedexDatabase.cpp.o
-.PHONY : core/src/PokedexDatabase.cpp.o
+core/src/Pal.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neodex_core.dir/build.make CMakeFiles/neodex_core.dir/core/src/Pal.cpp.o
+.PHONY : core/src/Pal.cpp.o
 
-core/src/PokedexDatabase.i: core/src/PokedexDatabase.cpp.i
-.PHONY : core/src/PokedexDatabase.i
+core/src/Pal.i: core/src/Pal.cpp.i
+.PHONY : core/src/Pal.i
 
 # target to preprocess a source file
-core/src/PokedexDatabase.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/neodex_core.dir/build.make CMakeFiles/neodex_core.dir/core/src/PokedexDatabase.cpp.i
-.PHONY : core/src/PokedexDatabase.cpp.i
+core/src/Pal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neodex_core.dir/build.make CMakeFiles/neodex_core.dir/core/src/Pal.cpp.i
+.PHONY : core/src/Pal.cpp.i
 
-core/src/PokedexDatabase.s: core/src/PokedexDatabase.cpp.s
-.PHONY : core/src/PokedexDatabase.s
+core/src/Pal.s: core/src/Pal.cpp.s
+.PHONY : core/src/Pal.s
 
 # target to generate assembly for a file
-core/src/PokedexDatabase.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/neodex_core.dir/build.make CMakeFiles/neodex_core.dir/core/src/PokedexDatabase.cpp.s
-.PHONY : core/src/PokedexDatabase.cpp.s
+core/src/Pal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neodex_core.dir/build.make CMakeFiles/neodex_core.dir/core/src/Pal.cpp.s
+.PHONY : core/src/Pal.cpp.s
 
-core/src/PokedexSearch.o: core/src/PokedexSearch.cpp.o
-.PHONY : core/src/PokedexSearch.o
+core/src/PalDatabase.o: core/src/PalDatabase.cpp.o
+.PHONY : core/src/PalDatabase.o
 
 # target to build an object file
-core/src/PokedexSearch.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/neodex_core.dir/build.make CMakeFiles/neodex_core.dir/core/src/PokedexSearch.cpp.o
-.PHONY : core/src/PokedexSearch.cpp.o
+core/src/PalDatabase.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neodex_core.dir/build.make CMakeFiles/neodex_core.dir/core/src/PalDatabase.cpp.o
+.PHONY : core/src/PalDatabase.cpp.o
 
-core/src/PokedexSearch.i: core/src/PokedexSearch.cpp.i
-.PHONY : core/src/PokedexSearch.i
+core/src/PalDatabase.i: core/src/PalDatabase.cpp.i
+.PHONY : core/src/PalDatabase.i
 
 # target to preprocess a source file
-core/src/PokedexSearch.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/neodex_core.dir/build.make CMakeFiles/neodex_core.dir/core/src/PokedexSearch.cpp.i
-.PHONY : core/src/PokedexSearch.cpp.i
+core/src/PalDatabase.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neodex_core.dir/build.make CMakeFiles/neodex_core.dir/core/src/PalDatabase.cpp.i
+.PHONY : core/src/PalDatabase.cpp.i
 
-core/src/PokedexSearch.s: core/src/PokedexSearch.cpp.s
-.PHONY : core/src/PokedexSearch.s
+core/src/PalDatabase.s: core/src/PalDatabase.cpp.s
+.PHONY : core/src/PalDatabase.s
 
 # target to generate assembly for a file
-core/src/PokedexSearch.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/neodex_core.dir/build.make CMakeFiles/neodex_core.dir/core/src/PokedexSearch.cpp.s
-.PHONY : core/src/PokedexSearch.cpp.s
+core/src/PalDatabase.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neodex_core.dir/build.make CMakeFiles/neodex_core.dir/core/src/PalDatabase.cpp.s
+.PHONY : core/src/PalDatabase.cpp.s
 
-core/src/Pokemon.o: core/src/Pokemon.cpp.o
-.PHONY : core/src/Pokemon.o
+core/src/SetLoader.o: core/src/SetLoader.cpp.o
+.PHONY : core/src/SetLoader.o
 
 # target to build an object file
-core/src/Pokemon.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/neodex_core.dir/build.make CMakeFiles/neodex_core.dir/core/src/Pokemon.cpp.o
-.PHONY : core/src/Pokemon.cpp.o
+core/src/SetLoader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neodex_core.dir/build.make CMakeFiles/neodex_core.dir/core/src/SetLoader.cpp.o
+.PHONY : core/src/SetLoader.cpp.o
 
-core/src/Pokemon.i: core/src/Pokemon.cpp.i
-.PHONY : core/src/Pokemon.i
-
-# target to preprocess a source file
-core/src/Pokemon.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/neodex_core.dir/build.make CMakeFiles/neodex_core.dir/core/src/Pokemon.cpp.i
-.PHONY : core/src/Pokemon.cpp.i
-
-core/src/Pokemon.s: core/src/Pokemon.cpp.s
-.PHONY : core/src/Pokemon.s
-
-# target to generate assembly for a file
-core/src/Pokemon.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/neodex_core.dir/build.make CMakeFiles/neodex_core.dir/core/src/Pokemon.cpp.s
-.PHONY : core/src/Pokemon.cpp.s
-
-core/src/PokemonDisplay.o: core/src/PokemonDisplay.cpp.o
-.PHONY : core/src/PokemonDisplay.o
-
-# target to build an object file
-core/src/PokemonDisplay.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/neodex_core.dir/build.make CMakeFiles/neodex_core.dir/core/src/PokemonDisplay.cpp.o
-.PHONY : core/src/PokemonDisplay.cpp.o
-
-core/src/PokemonDisplay.i: core/src/PokemonDisplay.cpp.i
-.PHONY : core/src/PokemonDisplay.i
+core/src/SetLoader.i: core/src/SetLoader.cpp.i
+.PHONY : core/src/SetLoader.i
 
 # target to preprocess a source file
-core/src/PokemonDisplay.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/neodex_core.dir/build.make CMakeFiles/neodex_core.dir/core/src/PokemonDisplay.cpp.i
-.PHONY : core/src/PokemonDisplay.cpp.i
+core/src/SetLoader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neodex_core.dir/build.make CMakeFiles/neodex_core.dir/core/src/SetLoader.cpp.i
+.PHONY : core/src/SetLoader.cpp.i
 
-core/src/PokemonDisplay.s: core/src/PokemonDisplay.cpp.s
-.PHONY : core/src/PokemonDisplay.s
-
-# target to generate assembly for a file
-core/src/PokemonDisplay.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/neodex_core.dir/build.make CMakeFiles/neodex_core.dir/core/src/PokemonDisplay.cpp.s
-.PHONY : core/src/PokemonDisplay.cpp.s
-
-core/src/RegionLoader.o: core/src/RegionLoader.cpp.o
-.PHONY : core/src/RegionLoader.o
-
-# target to build an object file
-core/src/RegionLoader.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/neodex_core.dir/build.make CMakeFiles/neodex_core.dir/core/src/RegionLoader.cpp.o
-.PHONY : core/src/RegionLoader.cpp.o
-
-core/src/RegionLoader.i: core/src/RegionLoader.cpp.i
-.PHONY : core/src/RegionLoader.i
-
-# target to preprocess a source file
-core/src/RegionLoader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/neodex_core.dir/build.make CMakeFiles/neodex_core.dir/core/src/RegionLoader.cpp.i
-.PHONY : core/src/RegionLoader.cpp.i
-
-core/src/RegionLoader.s: core/src/RegionLoader.cpp.s
-.PHONY : core/src/RegionLoader.s
+core/src/SetLoader.s: core/src/SetLoader.cpp.s
+.PHONY : core/src/SetLoader.s
 
 # target to generate assembly for a file
-core/src/RegionLoader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/neodex_core.dir/build.make CMakeFiles/neodex_core.dir/core/src/RegionLoader.cpp.s
-.PHONY : core/src/RegionLoader.cpp.s
+core/src/SetLoader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neodex_core.dir/build.make CMakeFiles/neodex_core.dir/core/src/SetLoader.cpp.s
+.PHONY : core/src/SetLoader.cpp.s
 
 external/imgui/imgui.o: external/imgui/imgui.cpp.o
 .PHONY : external/imgui/imgui.o
@@ -554,30 +530,27 @@ help:
 	@echo "... app/Main.o"
 	@echo "... app/Main.i"
 	@echo "... app/Main.s"
-	@echo "... core/src/EvolutionDatabase.o"
-	@echo "... core/src/EvolutionDatabase.i"
-	@echo "... core/src/EvolutionDatabase.s"
+	@echo "... core/src/Card.o"
+	@echo "... core/src/Card.i"
+	@echo "... core/src/Card.s"
+	@echo "... core/src/CardDatabase.o"
+	@echo "... core/src/CardDatabase.i"
+	@echo "... core/src/CardDatabase.s"
 	@echo "... core/src/JsonValue.o"
 	@echo "... core/src/JsonValue.i"
 	@echo "... core/src/JsonValue.s"
 	@echo "... core/src/Main.o"
 	@echo "... core/src/Main.i"
 	@echo "... core/src/Main.s"
-	@echo "... core/src/PokedexDatabase.o"
-	@echo "... core/src/PokedexDatabase.i"
-	@echo "... core/src/PokedexDatabase.s"
-	@echo "... core/src/PokedexSearch.o"
-	@echo "... core/src/PokedexSearch.i"
-	@echo "... core/src/PokedexSearch.s"
-	@echo "... core/src/Pokemon.o"
-	@echo "... core/src/Pokemon.i"
-	@echo "... core/src/Pokemon.s"
-	@echo "... core/src/PokemonDisplay.o"
-	@echo "... core/src/PokemonDisplay.i"
-	@echo "... core/src/PokemonDisplay.s"
-	@echo "... core/src/RegionLoader.o"
-	@echo "... core/src/RegionLoader.i"
-	@echo "... core/src/RegionLoader.s"
+	@echo "... core/src/Pal.o"
+	@echo "... core/src/Pal.i"
+	@echo "... core/src/Pal.s"
+	@echo "... core/src/PalDatabase.o"
+	@echo "... core/src/PalDatabase.i"
+	@echo "... core/src/PalDatabase.s"
+	@echo "... core/src/SetLoader.o"
+	@echo "... core/src/SetLoader.i"
+	@echo "... core/src/SetLoader.s"
 	@echo "... external/imgui/imgui.o"
 	@echo "... external/imgui/imgui.i"
 	@echo "... external/imgui/imgui.s"

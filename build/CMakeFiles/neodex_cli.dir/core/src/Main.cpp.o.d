@@ -693,15 +693,11 @@ CMakeFiles/neodex_cli.dir/core/src/Main.cpp.o: \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__fwd/stack.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/print \
   /data/data/com.termux/files/usr/bin/../../usr/include/unistd.h \
-  /data/data/com.termux/files/home/neodex_fixed/core/src/../include/PokedexDatabase.h \
-  /data/data/com.termux/files/home/neodex_fixed/core/src/../include/Pokemon.h \
-  /data/data/com.termux/files/home/neodex_fixed/core/src/../include/PokemonType.h \
-  /data/data/com.termux/files/home/neodex_fixed/core/src/../include/Generation.h \
-  /data/data/com.termux/files/home/neodex_fixed/core/src/../include/Region.h \
-  /data/data/com.termux/files/home/neodex_fixed/core/src/../include/BaseStats.h \
+  /data/data/com.termux/files/home/neodex_fixed/core/src/../include/PalDatabase.h \
+  /data/data/com.termux/files/home/neodex_fixed/core/src/../include/Pal.h \
+  /data/data/com.termux/files/home/neodex_fixed/core/src/../include/PalElement.h \
+  /data/data/com.termux/files/home/neodex_fixed/core/src/../include/PalStats.h \
   /data/data/com.termux/files/home/neodex_fixed/core/src/../include/Ability.h \
-  /data/data/com.termux/files/home/neodex_fixed/core/src/../include/EvolutionDatabase.h \
-  /data/data/com.termux/files/home/neodex_fixed/core/src/../include/Evolution.h \
-  /data/data/com.termux/files/home/neodex_fixed/core/src/../include/RegionLoader.h \
-  /data/data/com.termux/files/home/neodex_fixed/core/src/../include/PokedexSearch.h \
-  /data/data/com.termux/files/home/neodex_fixed/core/src/../include/PokemonDisplay.h
+  /data/data/com.termux/files/home/neodex_fixed/core/src/../include/CardDatabase.h \
+  /data/data/com.termux/files/home/neodex_fixed/core/src/../include/Card.h \
+  /data/data/com.termux/files/home/neodex_fixed/core/src/../include/SetLoader.h

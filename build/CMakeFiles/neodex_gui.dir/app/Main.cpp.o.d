@@ -761,13 +761,11 @@ CMakeFiles/neodex_gui.dir/app/Main.cpp.o: \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__fwd/stack.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/print \
   /data/data/com.termux/files/usr/bin/../../usr/include/unistd.h \
-  /data/data/com.termux/files/home/neodex_fixed/core/include/PokedexDatabase.h \
-  /data/data/com.termux/files/home/neodex_fixed/core/include/Pokemon.h \
-  /data/data/com.termux/files/home/neodex_fixed/core/include/PokemonType.h \
-  /data/data/com.termux/files/home/neodex_fixed/core/include/Generation.h \
-  /data/data/com.termux/files/home/neodex_fixed/core/include/Region.h \
-  /data/data/com.termux/files/home/neodex_fixed/core/include/BaseStats.h \
+  /data/data/com.termux/files/home/neodex_fixed/core/include/PalDatabase.h \
+  /data/data/com.termux/files/home/neodex_fixed/core/include/Pal.h \
+  /data/data/com.termux/files/home/neodex_fixed/core/include/PalElement.h \
+  /data/data/com.termux/files/home/neodex_fixed/core/include/PalStats.h \
   /data/data/com.termux/files/home/neodex_fixed/core/include/Ability.h \
-  /data/data/com.termux/files/home/neodex_fixed/core/include/EvolutionDatabase.h \
-  /data/data/com.termux/files/home/neodex_fixed/core/include/Evolution.h \
-  /data/data/com.termux/files/home/neodex_fixed/core/include/RegionLoader.h
+  /data/data/com.termux/files/home/neodex_fixed/core/include/CardDatabase.h \
+  /data/data/com.termux/files/home/neodex_fixed/core/include/Card.h \
+  /data/data/com.termux/files/home/neodex_fixed/core/include/SetLoader.h

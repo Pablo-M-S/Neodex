@@ -72,24 +72,38 @@ include CMakeFiles/neodex_core.dir/flags.make
 CMakeFiles/neodex_core.dir/codegen:
 .PHONY : CMakeFiles/neodex_core.dir/codegen
 
-CMakeFiles/neodex_core.dir/core/src/EvolutionDatabase.cpp.o: CMakeFiles/neodex_core.dir/flags.make
-CMakeFiles/neodex_core.dir/core/src/EvolutionDatabase.cpp.o: /data/data/com.termux/files/home/neodex_fixed/core/src/EvolutionDatabase.cpp
-CMakeFiles/neodex_core.dir/core/src/EvolutionDatabase.cpp.o: CMakeFiles/neodex_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/neodex_fixed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/neodex_core.dir/core/src/EvolutionDatabase.cpp.o"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/neodex_core.dir/core/src/EvolutionDatabase.cpp.o -MF CMakeFiles/neodex_core.dir/core/src/EvolutionDatabase.cpp.o.d -o CMakeFiles/neodex_core.dir/core/src/EvolutionDatabase.cpp.o -c /data/data/com.termux/files/home/neodex_fixed/core/src/EvolutionDatabase.cpp
+CMakeFiles/neodex_core.dir/core/src/Card.cpp.o: CMakeFiles/neodex_core.dir/flags.make
+CMakeFiles/neodex_core.dir/core/src/Card.cpp.o: /data/data/com.termux/files/home/neodex_fixed/core/src/Card.cpp
+CMakeFiles/neodex_core.dir/core/src/Card.cpp.o: CMakeFiles/neodex_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/neodex_fixed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/neodex_core.dir/core/src/Card.cpp.o"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/neodex_core.dir/core/src/Card.cpp.o -MF CMakeFiles/neodex_core.dir/core/src/Card.cpp.o.d -o CMakeFiles/neodex_core.dir/core/src/Card.cpp.o -c /data/data/com.termux/files/home/neodex_fixed/core/src/Card.cpp
 
-CMakeFiles/neodex_core.dir/core/src/EvolutionDatabase.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/neodex_core.dir/core/src/EvolutionDatabase.cpp.i"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/neodex_fixed/core/src/EvolutionDatabase.cpp > CMakeFiles/neodex_core.dir/core/src/EvolutionDatabase.cpp.i
+CMakeFiles/neodex_core.dir/core/src/Card.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/neodex_core.dir/core/src/Card.cpp.i"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/neodex_fixed/core/src/Card.cpp > CMakeFiles/neodex_core.dir/core/src/Card.cpp.i
 
-CMakeFiles/neodex_core.dir/core/src/EvolutionDatabase.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/neodex_core.dir/core/src/EvolutionDatabase.cpp.s"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/neodex_fixed/core/src/EvolutionDatabase.cpp -o CMakeFiles/neodex_core.dir/core/src/EvolutionDatabase.cpp.s
+CMakeFiles/neodex_core.dir/core/src/Card.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/neodex_core.dir/core/src/Card.cpp.s"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/neodex_fixed/core/src/Card.cpp -o CMakeFiles/neodex_core.dir/core/src/Card.cpp.s
+
+CMakeFiles/neodex_core.dir/core/src/CardDatabase.cpp.o: CMakeFiles/neodex_core.dir/flags.make
+CMakeFiles/neodex_core.dir/core/src/CardDatabase.cpp.o: /data/data/com.termux/files/home/neodex_fixed/core/src/CardDatabase.cpp
+CMakeFiles/neodex_core.dir/core/src/CardDatabase.cpp.o: CMakeFiles/neodex_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/neodex_fixed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/neodex_core.dir/core/src/CardDatabase.cpp.o"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/neodex_core.dir/core/src/CardDatabase.cpp.o -MF CMakeFiles/neodex_core.dir/core/src/CardDatabase.cpp.o.d -o CMakeFiles/neodex_core.dir/core/src/CardDatabase.cpp.o -c /data/data/com.termux/files/home/neodex_fixed/core/src/CardDatabase.cpp
+
+CMakeFiles/neodex_core.dir/core/src/CardDatabase.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/neodex_core.dir/core/src/CardDatabase.cpp.i"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/neodex_fixed/core/src/CardDatabase.cpp > CMakeFiles/neodex_core.dir/core/src/CardDatabase.cpp.i
+
+CMakeFiles/neodex_core.dir/core/src/CardDatabase.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/neodex_core.dir/core/src/CardDatabase.cpp.s"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/neodex_fixed/core/src/CardDatabase.cpp -o CMakeFiles/neodex_core.dir/core/src/CardDatabase.cpp.s
 
 CMakeFiles/neodex_core.dir/core/src/JsonValue.cpp.o: CMakeFiles/neodex_core.dir/flags.make
 CMakeFiles/neodex_core.dir/core/src/JsonValue.cpp.o: /data/data/com.termux/files/home/neodex_fixed/core/src/JsonValue.cpp
 CMakeFiles/neodex_core.dir/core/src/JsonValue.cpp.o: CMakeFiles/neodex_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/neodex_fixed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/neodex_core.dir/core/src/JsonValue.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/neodex_fixed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/neodex_core.dir/core/src/JsonValue.cpp.o"
 	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/neodex_core.dir/core/src/JsonValue.cpp.o -MF CMakeFiles/neodex_core.dir/core/src/JsonValue.cpp.o.d -o CMakeFiles/neodex_core.dir/core/src/JsonValue.cpp.o -c /data/data/com.termux/files/home/neodex_fixed/core/src/JsonValue.cpp
 
 CMakeFiles/neodex_core.dir/core/src/JsonValue.cpp.i: cmake_force
@@ -100,99 +114,69 @@ CMakeFiles/neodex_core.dir/core/src/JsonValue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/neodex_core.dir/core/src/JsonValue.cpp.s"
 	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/neodex_fixed/core/src/JsonValue.cpp -o CMakeFiles/neodex_core.dir/core/src/JsonValue.cpp.s
 
-CMakeFiles/neodex_core.dir/core/src/PokedexDatabase.cpp.o: CMakeFiles/neodex_core.dir/flags.make
-CMakeFiles/neodex_core.dir/core/src/PokedexDatabase.cpp.o: /data/data/com.termux/files/home/neodex_fixed/core/src/PokedexDatabase.cpp
-CMakeFiles/neodex_core.dir/core/src/PokedexDatabase.cpp.o: CMakeFiles/neodex_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/neodex_fixed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/neodex_core.dir/core/src/PokedexDatabase.cpp.o"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/neodex_core.dir/core/src/PokedexDatabase.cpp.o -MF CMakeFiles/neodex_core.dir/core/src/PokedexDatabase.cpp.o.d -o CMakeFiles/neodex_core.dir/core/src/PokedexDatabase.cpp.o -c /data/data/com.termux/files/home/neodex_fixed/core/src/PokedexDatabase.cpp
+CMakeFiles/neodex_core.dir/core/src/Pal.cpp.o: CMakeFiles/neodex_core.dir/flags.make
+CMakeFiles/neodex_core.dir/core/src/Pal.cpp.o: /data/data/com.termux/files/home/neodex_fixed/core/src/Pal.cpp
+CMakeFiles/neodex_core.dir/core/src/Pal.cpp.o: CMakeFiles/neodex_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/neodex_fixed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/neodex_core.dir/core/src/Pal.cpp.o"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/neodex_core.dir/core/src/Pal.cpp.o -MF CMakeFiles/neodex_core.dir/core/src/Pal.cpp.o.d -o CMakeFiles/neodex_core.dir/core/src/Pal.cpp.o -c /data/data/com.termux/files/home/neodex_fixed/core/src/Pal.cpp
 
-CMakeFiles/neodex_core.dir/core/src/PokedexDatabase.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/neodex_core.dir/core/src/PokedexDatabase.cpp.i"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/neodex_fixed/core/src/PokedexDatabase.cpp > CMakeFiles/neodex_core.dir/core/src/PokedexDatabase.cpp.i
+CMakeFiles/neodex_core.dir/core/src/Pal.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/neodex_core.dir/core/src/Pal.cpp.i"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/neodex_fixed/core/src/Pal.cpp > CMakeFiles/neodex_core.dir/core/src/Pal.cpp.i
 
-CMakeFiles/neodex_core.dir/core/src/PokedexDatabase.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/neodex_core.dir/core/src/PokedexDatabase.cpp.s"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/neodex_fixed/core/src/PokedexDatabase.cpp -o CMakeFiles/neodex_core.dir/core/src/PokedexDatabase.cpp.s
+CMakeFiles/neodex_core.dir/core/src/Pal.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/neodex_core.dir/core/src/Pal.cpp.s"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/neodex_fixed/core/src/Pal.cpp -o CMakeFiles/neodex_core.dir/core/src/Pal.cpp.s
 
-CMakeFiles/neodex_core.dir/core/src/PokedexSearch.cpp.o: CMakeFiles/neodex_core.dir/flags.make
-CMakeFiles/neodex_core.dir/core/src/PokedexSearch.cpp.o: /data/data/com.termux/files/home/neodex_fixed/core/src/PokedexSearch.cpp
-CMakeFiles/neodex_core.dir/core/src/PokedexSearch.cpp.o: CMakeFiles/neodex_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/neodex_fixed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/neodex_core.dir/core/src/PokedexSearch.cpp.o"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/neodex_core.dir/core/src/PokedexSearch.cpp.o -MF CMakeFiles/neodex_core.dir/core/src/PokedexSearch.cpp.o.d -o CMakeFiles/neodex_core.dir/core/src/PokedexSearch.cpp.o -c /data/data/com.termux/files/home/neodex_fixed/core/src/PokedexSearch.cpp
+CMakeFiles/neodex_core.dir/core/src/PalDatabase.cpp.o: CMakeFiles/neodex_core.dir/flags.make
+CMakeFiles/neodex_core.dir/core/src/PalDatabase.cpp.o: /data/data/com.termux/files/home/neodex_fixed/core/src/PalDatabase.cpp
+CMakeFiles/neodex_core.dir/core/src/PalDatabase.cpp.o: CMakeFiles/neodex_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/neodex_fixed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/neodex_core.dir/core/src/PalDatabase.cpp.o"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/neodex_core.dir/core/src/PalDatabase.cpp.o -MF CMakeFiles/neodex_core.dir/core/src/PalDatabase.cpp.o.d -o CMakeFiles/neodex_core.dir/core/src/PalDatabase.cpp.o -c /data/data/com.termux/files/home/neodex_fixed/core/src/PalDatabase.cpp
 
-CMakeFiles/neodex_core.dir/core/src/PokedexSearch.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/neodex_core.dir/core/src/PokedexSearch.cpp.i"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/neodex_fixed/core/src/PokedexSearch.cpp > CMakeFiles/neodex_core.dir/core/src/PokedexSearch.cpp.i
+CMakeFiles/neodex_core.dir/core/src/PalDatabase.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/neodex_core.dir/core/src/PalDatabase.cpp.i"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/neodex_fixed/core/src/PalDatabase.cpp > CMakeFiles/neodex_core.dir/core/src/PalDatabase.cpp.i
 
-CMakeFiles/neodex_core.dir/core/src/PokedexSearch.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/neodex_core.dir/core/src/PokedexSearch.cpp.s"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/neodex_fixed/core/src/PokedexSearch.cpp -o CMakeFiles/neodex_core.dir/core/src/PokedexSearch.cpp.s
+CMakeFiles/neodex_core.dir/core/src/PalDatabase.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/neodex_core.dir/core/src/PalDatabase.cpp.s"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/neodex_fixed/core/src/PalDatabase.cpp -o CMakeFiles/neodex_core.dir/core/src/PalDatabase.cpp.s
 
-CMakeFiles/neodex_core.dir/core/src/Pokemon.cpp.o: CMakeFiles/neodex_core.dir/flags.make
-CMakeFiles/neodex_core.dir/core/src/Pokemon.cpp.o: /data/data/com.termux/files/home/neodex_fixed/core/src/Pokemon.cpp
-CMakeFiles/neodex_core.dir/core/src/Pokemon.cpp.o: CMakeFiles/neodex_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/neodex_fixed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/neodex_core.dir/core/src/Pokemon.cpp.o"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/neodex_core.dir/core/src/Pokemon.cpp.o -MF CMakeFiles/neodex_core.dir/core/src/Pokemon.cpp.o.d -o CMakeFiles/neodex_core.dir/core/src/Pokemon.cpp.o -c /data/data/com.termux/files/home/neodex_fixed/core/src/Pokemon.cpp
+CMakeFiles/neodex_core.dir/core/src/SetLoader.cpp.o: CMakeFiles/neodex_core.dir/flags.make
+CMakeFiles/neodex_core.dir/core/src/SetLoader.cpp.o: /data/data/com.termux/files/home/neodex_fixed/core/src/SetLoader.cpp
+CMakeFiles/neodex_core.dir/core/src/SetLoader.cpp.o: CMakeFiles/neodex_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/neodex_fixed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/neodex_core.dir/core/src/SetLoader.cpp.o"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/neodex_core.dir/core/src/SetLoader.cpp.o -MF CMakeFiles/neodex_core.dir/core/src/SetLoader.cpp.o.d -o CMakeFiles/neodex_core.dir/core/src/SetLoader.cpp.o -c /data/data/com.termux/files/home/neodex_fixed/core/src/SetLoader.cpp
 
-CMakeFiles/neodex_core.dir/core/src/Pokemon.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/neodex_core.dir/core/src/Pokemon.cpp.i"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/neodex_fixed/core/src/Pokemon.cpp > CMakeFiles/neodex_core.dir/core/src/Pokemon.cpp.i
+CMakeFiles/neodex_core.dir/core/src/SetLoader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/neodex_core.dir/core/src/SetLoader.cpp.i"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/neodex_fixed/core/src/SetLoader.cpp > CMakeFiles/neodex_core.dir/core/src/SetLoader.cpp.i
 
-CMakeFiles/neodex_core.dir/core/src/Pokemon.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/neodex_core.dir/core/src/Pokemon.cpp.s"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/neodex_fixed/core/src/Pokemon.cpp -o CMakeFiles/neodex_core.dir/core/src/Pokemon.cpp.s
-
-CMakeFiles/neodex_core.dir/core/src/PokemonDisplay.cpp.o: CMakeFiles/neodex_core.dir/flags.make
-CMakeFiles/neodex_core.dir/core/src/PokemonDisplay.cpp.o: /data/data/com.termux/files/home/neodex_fixed/core/src/PokemonDisplay.cpp
-CMakeFiles/neodex_core.dir/core/src/PokemonDisplay.cpp.o: CMakeFiles/neodex_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/neodex_fixed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/neodex_core.dir/core/src/PokemonDisplay.cpp.o"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/neodex_core.dir/core/src/PokemonDisplay.cpp.o -MF CMakeFiles/neodex_core.dir/core/src/PokemonDisplay.cpp.o.d -o CMakeFiles/neodex_core.dir/core/src/PokemonDisplay.cpp.o -c /data/data/com.termux/files/home/neodex_fixed/core/src/PokemonDisplay.cpp
-
-CMakeFiles/neodex_core.dir/core/src/PokemonDisplay.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/neodex_core.dir/core/src/PokemonDisplay.cpp.i"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/neodex_fixed/core/src/PokemonDisplay.cpp > CMakeFiles/neodex_core.dir/core/src/PokemonDisplay.cpp.i
-
-CMakeFiles/neodex_core.dir/core/src/PokemonDisplay.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/neodex_core.dir/core/src/PokemonDisplay.cpp.s"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/neodex_fixed/core/src/PokemonDisplay.cpp -o CMakeFiles/neodex_core.dir/core/src/PokemonDisplay.cpp.s
-
-CMakeFiles/neodex_core.dir/core/src/RegionLoader.cpp.o: CMakeFiles/neodex_core.dir/flags.make
-CMakeFiles/neodex_core.dir/core/src/RegionLoader.cpp.o: /data/data/com.termux/files/home/neodex_fixed/core/src/RegionLoader.cpp
-CMakeFiles/neodex_core.dir/core/src/RegionLoader.cpp.o: CMakeFiles/neodex_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/neodex_fixed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/neodex_core.dir/core/src/RegionLoader.cpp.o"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/neodex_core.dir/core/src/RegionLoader.cpp.o -MF CMakeFiles/neodex_core.dir/core/src/RegionLoader.cpp.o.d -o CMakeFiles/neodex_core.dir/core/src/RegionLoader.cpp.o -c /data/data/com.termux/files/home/neodex_fixed/core/src/RegionLoader.cpp
-
-CMakeFiles/neodex_core.dir/core/src/RegionLoader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/neodex_core.dir/core/src/RegionLoader.cpp.i"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/neodex_fixed/core/src/RegionLoader.cpp > CMakeFiles/neodex_core.dir/core/src/RegionLoader.cpp.i
-
-CMakeFiles/neodex_core.dir/core/src/RegionLoader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/neodex_core.dir/core/src/RegionLoader.cpp.s"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/neodex_fixed/core/src/RegionLoader.cpp -o CMakeFiles/neodex_core.dir/core/src/RegionLoader.cpp.s
+CMakeFiles/neodex_core.dir/core/src/SetLoader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/neodex_core.dir/core/src/SetLoader.cpp.s"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/neodex_fixed/core/src/SetLoader.cpp -o CMakeFiles/neodex_core.dir/core/src/SetLoader.cpp.s
 
 # Object files for target neodex_core
 neodex_core_OBJECTS = \
-"CMakeFiles/neodex_core.dir/core/src/EvolutionDatabase.cpp.o" \
+"CMakeFiles/neodex_core.dir/core/src/Card.cpp.o" \
+"CMakeFiles/neodex_core.dir/core/src/CardDatabase.cpp.o" \
 "CMakeFiles/neodex_core.dir/core/src/JsonValue.cpp.o" \
-"CMakeFiles/neodex_core.dir/core/src/PokedexDatabase.cpp.o" \
-"CMakeFiles/neodex_core.dir/core/src/PokedexSearch.cpp.o" \
-"CMakeFiles/neodex_core.dir/core/src/Pokemon.cpp.o" \
-"CMakeFiles/neodex_core.dir/core/src/PokemonDisplay.cpp.o" \
-"CMakeFiles/neodex_core.dir/core/src/RegionLoader.cpp.o"
+"CMakeFiles/neodex_core.dir/core/src/Pal.cpp.o" \
+"CMakeFiles/neodex_core.dir/core/src/PalDatabase.cpp.o" \
+"CMakeFiles/neodex_core.dir/core/src/SetLoader.cpp.o"
 
 # External object files for target neodex_core
 neodex_core_EXTERNAL_OBJECTS =
 
-libneodex_core.a: CMakeFiles/neodex_core.dir/core/src/EvolutionDatabase.cpp.o
+libneodex_core.a: CMakeFiles/neodex_core.dir/core/src/Card.cpp.o
+libneodex_core.a: CMakeFiles/neodex_core.dir/core/src/CardDatabase.cpp.o
 libneodex_core.a: CMakeFiles/neodex_core.dir/core/src/JsonValue.cpp.o
-libneodex_core.a: CMakeFiles/neodex_core.dir/core/src/PokedexDatabase.cpp.o
-libneodex_core.a: CMakeFiles/neodex_core.dir/core/src/PokedexSearch.cpp.o
-libneodex_core.a: CMakeFiles/neodex_core.dir/core/src/Pokemon.cpp.o
-libneodex_core.a: CMakeFiles/neodex_core.dir/core/src/PokemonDisplay.cpp.o
-libneodex_core.a: CMakeFiles/neodex_core.dir/core/src/RegionLoader.cpp.o
+libneodex_core.a: CMakeFiles/neodex_core.dir/core/src/Pal.cpp.o
+libneodex_core.a: CMakeFiles/neodex_core.dir/core/src/PalDatabase.cpp.o
+libneodex_core.a: CMakeFiles/neodex_core.dir/core/src/SetLoader.cpp.o
 libneodex_core.a: CMakeFiles/neodex_core.dir/build.make
 libneodex_core.a: CMakeFiles/neodex_core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/data/data/com.termux/files/home/neodex_fixed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libneodex_core.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/data/data/com.termux/files/home/neodex_fixed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libneodex_core.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/neodex_core.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/neodex_core.dir/link.txt --verbose=$(VERBOSE)
 

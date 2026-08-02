@@ -4,14 +4,13 @@
 # NEODEX_CORE_SOURCES at CMakeLists.txt:20 (file)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "/data/data/com.termux/files/home/neodex_fixed/core/src/*.cpp")
 set(OLD_GLOB
-  "/data/data/com.termux/files/home/neodex_fixed/core/src/EvolutionDatabase.cpp"
+  "/data/data/com.termux/files/home/neodex_fixed/core/src/Card.cpp"
+  "/data/data/com.termux/files/home/neodex_fixed/core/src/CardDatabase.cpp"
   "/data/data/com.termux/files/home/neodex_fixed/core/src/JsonValue.cpp"
   "/data/data/com.termux/files/home/neodex_fixed/core/src/Main.cpp"
-  "/data/data/com.termux/files/home/neodex_fixed/core/src/PokedexDatabase.cpp"
-  "/data/data/com.termux/files/home/neodex_fixed/core/src/PokedexSearch.cpp"
-  "/data/data/com.termux/files/home/neodex_fixed/core/src/Pokemon.cpp"
-  "/data/data/com.termux/files/home/neodex_fixed/core/src/PokemonDisplay.cpp"
-  "/data/data/com.termux/files/home/neodex_fixed/core/src/RegionLoader.cpp"
+  "/data/data/com.termux/files/home/neodex_fixed/core/src/Pal.cpp"
+  "/data/data/com.termux/files/home/neodex_fixed/core/src/PalDatabase.cpp"
+  "/data/data/com.termux/files/home/neodex_fixed/core/src/SetLoader.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
