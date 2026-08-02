@@ -8,46 +8,49 @@
 #include <string>
 #include <iostream>
 
-#include "PokedexDatabase.h"
-#include "EvolutionDatabase.h"
-#include "RegionLoader.h"
+#include "PalDatabase.h"
+#include "CardDatabase.h"
+#include "SetLoader.h"
 
 using namespace NeoDex;
 
-// Nome legivel para cada tipo de Pokemon (o enum PokemonType so tem o valor).
-static const char* TypeName(PokemonType type)
+static const char* ElementName(PalElement element)
 {
-    switch (type)
+    switch (element)
     {
-        case PokemonType::None:     return "-";
-        case PokemonType::Normal:   return "Normal";
-        case PokemonType::Fire:     return "Fogo";
-        case PokemonType::Water:    return "Agua";
-        case PokemonType::Electric: return "Eletrico";
-        case PokemonType::Grass:    return "Planta";
-        case PokemonType::Ice:      return "Gelo";
-        case PokemonType::Fighting: return "Lutador";
-        case PokemonType::Poison:   return "Veneno";
-        case PokemonType::Ground:   return "Terra";
-        case PokemonType::Flying:   return "Voador";
-        case PokemonType::Psychic:  return "Psiquico";
-        case PokemonType::Bug:      return "Inseto";
-        case PokemonType::Rock:     return "Pedra";
-        case PokemonType::Ghost:    return "Fantasma";
-        case PokemonType::Dragon:   return "Dragao";
-        case PokemonType::Dark:     return "Sombrio";
-        case PokemonType::Steel:    return "Aco";
-        case PokemonType::Fairy:    return "Fada";
+        case PalElement::None:     return "-";
+        case PalElement::Neutral:  return "Neutral";
+        case PalElement::Fire:     return "Fire";
+        case PalElement::Water:    return "Water";
+        case PalElement::Grass:    return "Grass";
+        case PalElement::Electric: return "Electric";
+        case PalElement::Ice:      return "Ice";
+        case PalElement::Earth:    return "Earth";
+        case PalElement::Dark:     return "Dark";
+        case PalElement::Dragon:   return "Dragon";
     }
     return "?";
 }
 
-// Barra de progresso simples para cada stat (0-255, faixa usual de base stats).
+static const char* RarityName(CardRarity rarity)
+{
+    switch (rarity)
+    {
+        case CardRarity::Common:     return "Common";
+        case CardRarity::Uncommon:   return "Uncommon";
+        case CardRarity::Rare:       return "Rare";
+        case CardRarity::SuperRare:  return "Super Rare";
+        case CardRarity::UltraRare:  return "Ultra Rare";
+        case CardRarity::SecretRare: return "Secret Rare";
+    }
+    return "?";
+}
+
 static void StatBar(const char* label, int value)
 {
-    ImGui::Text("%-16s %3d", label, value);
+    ImGui::Text("%-10s %3d", label, value);
     ImGui::SameLine();
-    float fraction = value / 255.0f;
+    float fraction = value / 150.0f;
     if (fraction > 1.0f) fraction = 1.0f;
     ImGui::ProgressBar(fraction, ImVec2(150, 0));
 }
@@ -60,27 +63,23 @@ int main(int, char**)
         return -1;
     }
 
-    // OpenGL ES 3.0, necessario no Android/Termux
+    // OpenGL ES 3.0, required on Android/Termux
     SDL_GL_SetAttribute(SDL_GL_CONTEXT_PROFILE_MASK, SDL_GL_CONTEXT_PROFILE_ES);
     SDL_GL_SetAttribute(SDL_GL_CONTEXT_MAJOR_VERSION, 3);
     SDL_GL_SetAttribute(SDL_GL_CONTEXT_MINOR_VERSION, 0);
 
-    // Por padrao o SDL2 exige um contexto acelerado por hardware, o que
-    // impede o fallback para renderizacao por software (LIBGL_ALWAYS_SOFTWARE)
-    // em ambientes como o Termux:X11 onde a GPU pode nao estar disponivel.
+    // SDL2 requires a hardware-accelerated context by default, which blocks
+    // software rendering fallback (LIBGL_ALWAYS_SOFTWARE) on setups like
+    // Termux:X11 where the GPU driver path may not work.
     SDL_GL_SetAttribute(SDL_GL_ACCELERATED_VISUAL, 0);
 
     SDL_WindowFlags window_flags = (SDL_WindowFlags)(SDL_WINDOW_OPENGL | SDL_WINDOW_RESIZABLE | SDL_WINDOW_SHOWN);
 
-    // Descobre o tamanho real da tela disponivel (Termux:X11 pode ter uma
-    // resolucao menor que 1280x720, ou a janela pode nao caber na area
-    // visivel do split-screen). Usa um tamanho seguro baseado nisso.
     int windowWidth = 1280;
     int windowHeight = 720;
     SDL_DisplayMode displayMode;
     if (SDL_GetCurrentDisplayMode(0, &displayMode) == 0)
     {
-        // Deixa uma margem de 90% para nao estourar a area visivel.
         windowWidth = (int)(displayMode.w * 0.9f);
         windowHeight = (int)(displayMode.h * 0.9f);
     }
@@ -105,22 +104,23 @@ int main(int, char**)
     ImGui_ImplSDL2_InitForOpenGL(window, gl_context);
     ImGui_ImplOpenGL3_Init("#version 300 es");
 
-    // --- Carrega os dados reais do Pokedex (neodex_core) ---
-    PokedexDatabase database;
-    EvolutionDatabase evolutions;
+    // --- Load real Palworld TCG data ---
+    PalDatabase pals;
+    CardDatabase cards;
     std::string loadError;
 
     try
     {
-        RegionLoader::load("data/regions/kanto.json", database, evolutions);
+        SetLoader::loadPals("data/pals.json", pals);
+        SetLoader::loadSet("data/sets/dawn-of-palpagos.json", cards);
     }
     catch (const std::exception& e)
     {
         loadError = e.what();
-        std::cerr << "Failed to load region data: " << loadError << std::endl;
+        std::cerr << "Failed to load data: " << loadError << std::endl;
     }
 
-    int selectedPokedexNumber = database.getPokemonCount() > 0 ? 1 : 0;
+    int selectedPalNumber = pals.getPalCount() > 0 ? 1 : 0;
 
     bool done = false;
     while (!done)
@@ -144,43 +144,41 @@ int main(int, char**)
 
         if (!loadError.empty())
         {
-            ImGui::TextColored(ImVec4(1, 0.3f, 0.3f, 1), "Erro ao carregar dados: %s", loadError.c_str());
+            ImGui::TextColored(ImVec4(1, 0.3f, 0.3f, 1), "Failed to load data: %s", loadError.c_str());
         }
         else
         {
-            // Coluna esquerda: lista de Pokemon
-            ImGui::BeginChild("PokemonList", ImVec2(250, 0), true);
-            for (int i = 1; i <= database.getPokemonCount(); ++i)
+            // Left column: Pal list
+            ImGui::BeginChild("PalList", ImVec2(250, 0), true);
+            for (int i = 1; i <= pals.getPalCount(); ++i)
             {
-                Pokemon p = database.getPokemon(i);
-                std::string label = "#" + std::to_string(p.getPokedexNumber()) + " " + p.getName();
+                Pal p = pals.getPal(i);
+                std::string label = "#" + std::to_string(p.getPalNumber()) + " " + p.getName();
                 if (p.isCaught())
                     label += " [X]";
-                bool isSelected = (i == selectedPokedexNumber);
+                bool isSelected = (i == selectedPalNumber);
                 if (ImGui::Selectable(label.c_str(), isSelected))
                 {
-                    selectedPokedexNumber = i;
+                    selectedPalNumber = i;
                 }
             }
             ImGui::EndChild();
 
             ImGui::SameLine();
 
-            // Coluna direita: detalhes do Pokemon selecionado
-            ImGui::BeginChild("PokemonDetails", ImVec2(0, 0), true);
-            if (selectedPokedexNumber > 0)
+            // Right column: selected Pal details + all its cards
+            ImGui::BeginChild("PalDetails", ImVec2(0, 0), true);
+            if (selectedPalNumber > 0)
             {
-                Pokemon p = database.getPokemon(selectedPokedexNumber);
+                Pal p = pals.getPal(selectedPalNumber);
 
-                ImGui::Text("#%d %s", p.getPokedexNumber(), p.getName().c_str());
+                ImGui::Text("#%d %s", p.getPalNumber(), p.getName().c_str());
                 ImGui::Separator();
 
-                if (p.getSecondaryType() == PokemonType::None)
-                    ImGui::Text("Tipo: %s", TypeName(p.getPrimaryType()));
+                if (p.getSecondaryElement() == PalElement::None)
+                    ImGui::Text("Element: %s", ElementName(p.getPrimaryElement()));
                 else
-                    ImGui::Text("Tipo: %s / %s", TypeName(p.getPrimaryType()), TypeName(p.getSecondaryType()));
-
-                ImGui::Text("Altura: %.1f m    Peso: %.1f kg", p.getHeight(), p.getWeight());
+                    ImGui::Text("Element: %s / %s", ElementName(p.getPrimaryElement()), ElementName(p.getSecondaryElement()));
 
                 if (!p.getDescription().empty())
                 {
@@ -189,46 +187,37 @@ int main(int, char**)
 
                 ImGui::Spacing();
                 ImGui::Separator();
-                ImGui::Text("Status base");
+                ImGui::Text("Base Stats");
                 ImGui::Spacing();
 
-                BaseStats stats = p.getBaseStats();
+                PalStats stats = p.getStats();
                 StatBar("HP", stats.getHp());
-                StatBar("Ataque", stats.getAttack());
-                StatBar("Defesa", stats.getDefense());
-                StatBar("At. Especial", stats.getSpecialAttack());
-                StatBar("Def. Especial", stats.getSpecialDefense());
-                StatBar("Velocidade", stats.getSpeed());
+                StatBar("Attack", stats.getAttack());
+                StatBar("Defense", stats.getDefense());
                 ImGui::Text("Total: %d", stats.getTotal());
 
-                ImGui::Spacing();
-                ImGui::Separator();
-
                 bool caught = p.isCaught();
-                if (ImGui::Checkbox("Capturado", &caught))
+                ImGui::Spacing();
+                if (ImGui::Checkbox("Caught", &caught))
                 {
-                    database.setPokemonCaught(p.getPokedexNumber(), caught);
+                    pals.setPalCaught(p.getPalNumber(), caught);
                 }
 
-                // Evolucoes a partir deste Pokemon, se houver
-                std::vector<Evolution> evos = evolutions.getEvolutionsFrom(p.getPokedexNumber());
-                if (!evos.empty())
+                // Cards for this Pal, across every set.
+                std::vector<Card> palCards = cards.getCardsForPal(p.getPalNumber());
+                ImGui::Spacing();
+                ImGui::Separator();
+                ImGui::Text("Cards (%d)", (int)palCards.size());
+                ImGui::Spacing();
+
+                for (const Card& card : palCards)
                 {
-                    ImGui::Spacing();
-                    ImGui::Separator();
-                    ImGui::Text("Evolui para:");
-                    for (const Evolution& evo : evos)
-                    {
-                        try
-                        {
-                            Pokemon next = database.getPokemon(evo.toPokedexNumber);
-                            ImGui::BulletText("#%d %s", next.getPokedexNumber(), next.getName().c_str());
-                        }
-                        catch (const std::exception&)
-                        {
-                            ImGui::BulletText("#%d", evo.toPokedexNumber);
-                        }
-                    }
+                    ImGui::BulletText(
+                        "%s - %s (%s)",
+                        card.getCardId().c_str(),
+                        card.getSetName().c_str(),
+                        RarityName(card.getRarity())
+                    );
                 }
             }
             ImGui::EndChild();

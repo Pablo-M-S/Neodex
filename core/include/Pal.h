@@ -1,31 +1,26 @@
 #pragma once
 
 #include <string>
-#include "PokemonType.h"
-#include "Generation.h"
-#include "Region.h"
-#include "BaseStats.h"
+#include "PalElement.h"
+#include "PalStats.h"
 #include "Ability.h"
 
 namespace NeoDex
 {
 
-class Pokemon
+class Pal
 {
 private:
 
-    int pokedexNumber;
+    int palNumber; // Paldeck number
     std::string name;
 
-    PokemonType primaryType;
-    PokemonType secondaryType;
+    PalElement primaryElement;
+    PalElement secondaryElement;
 
-    Generation generation;
-    Region region;
+    PalStats stats;
 
-    BaseStats stats;
-    
-    Ability abilities;
+    Ability abilities; // Palworld "Partner Skill" / passive skills
 
     std::string spritePath;
     std::string cryPath;
@@ -38,30 +33,24 @@ private:
 
 public:
 
-    Pokemon(
+    Pal(
         int number,
-        const std::string& pokemonName,
-        PokemonType type1,
-        PokemonType type2,
-        Generation gen,
-        Region reg,
-        BaseStats baseStats
+        const std::string& palName,
+        PalElement element1,
+        PalElement element2,
+        PalStats baseStats
     );
 
     void setAbilities(const Ability& value);
-
     Ability getAbilities() const;
 
-    int getPokedexNumber() const;
+    int getPalNumber() const;
     std::string getName() const;
 
-    PokemonType getPrimaryType() const;
-    PokemonType getSecondaryType() const;
+    PalElement getPrimaryElement() const;
+    PalElement getSecondaryElement() const;
 
-    Generation getGeneration() const;
-    Region getRegion() const;
-
-    BaseStats getBaseStats() const;
+    PalStats getStats() const;
 
     void setSpritePath(const std::string& path);
     std::string getSpritePath() const;
@@ -69,8 +58,8 @@ public:
     void setCryPath(const std::string& path);
     std::string getCryPath() const;
 
-    void catchPokemon();
-    void releasePokemon();
+    void catchPal();
+    void releasePal();
 
     bool isCaught() const;
 

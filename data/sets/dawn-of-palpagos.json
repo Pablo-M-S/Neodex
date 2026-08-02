@@ -1,0 +1,36 @@
+{
+  "setCode": "DOP",
+  "setName": "Dawn of Palpagos",
+  "cards": [
+    {
+      "cardId": "DOP-001",
+      "palNumber": 1,
+      "rarity": "Common",
+      "artPath": "assets/cards/DOP/001.png"
+    },
+    {
+      "cardId": "DOP-002",
+      "palNumber": 2,
+      "rarity": "Common",
+      "artPath": "assets/cards/DOP/002.png"
+    },
+    {
+      "cardId": "DOP-003",
+      "palNumber": 3,
+      "rarity": "Common",
+      "artPath": "assets/cards/DOP/003.png"
+    },
+    {
+      "cardId": "DOP-004",
+      "palNumber": 4,
+      "rarity": "Uncommon",
+      "artPath": "assets/cards/DOP/004.png"
+    },
+    {
+      "cardId": "DOP-005",
+      "palNumber": 5,
+      "rarity": "Rare",
+      "artPath": "assets/cards/DOP/005.png"
+    }
+  ]
+}

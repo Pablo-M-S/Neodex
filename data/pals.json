@@ -1,0 +1,64 @@
+{
+  "pals": [
+    {
+      "number": 1,
+      "name": "Lamball",
+      "elements": ["Neutral"],
+      "stats": { "hp": 70, "attack": 70, "defense": 70 },
+      "abilities": { "primary": "Fluffy Shield", "secondary": "", "hidden": "" },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "A walk up a hill tends to end with this Pal tumbling back down.",
+      "spritePath": "assets/sprites/pals/001.png",
+      "cryPath": "assets/cries/pals/001.ogg"
+    },
+    {
+      "number": 2,
+      "name": "Cattiva",
+      "elements": ["Neutral"],
+      "stats": { "hp": 70, "attack": 70, "defense": 70 },
+      "abilities": { "primary": "Cat Helper", "secondary": "", "hidden": "" },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "At a glance it appears full of confidence, but it is in fact weak and cowardly.",
+      "spritePath": "assets/sprites/pals/002.png",
+      "cryPath": "assets/cries/pals/002.ogg"
+    },
+    {
+      "number": 3,
+      "name": "Chikipi",
+      "elements": ["Neutral"],
+      "stats": { "hp": 60, "attack": 70, "defense": 60 },
+      "abilities": { "primary": "", "secondary": "", "hidden": "" },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "Extremely weak and far too delicious.",
+      "spritePath": "assets/sprites/pals/003.png",
+      "cryPath": "assets/cries/pals/003.ogg"
+    },
+    {
+      "number": 4,
+      "name": "Lifmunk",
+      "elements": ["Grass"],
+      "stats": { "hp": 75, "attack": 70, "defense": 70 },
+      "abilities": { "primary": "", "secondary": "", "hidden": "" },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "A small pale yellow and green Pal that carries a submachine gun and can jump onto your head to help attack.",
+      "spritePath": "assets/sprites/pals/004.png",
+      "cryPath": "assets/cries/pals/004.ogg"
+    },
+    {
+      "number": 5,
+      "name": "Foxparks",
+      "elements": ["Fire"],
+      "stats": { "hp": 65, "attack": 75, "defense": 60 },
+      "abilities": { "primary": "Huggy Fire", "secondary": "", "hidden": "" },
+      "height": 0.0,
+      "weight": 0.0,
+      "description": "It is unskilled at controlling fire from the moment it is born and tends to choke on the flames it breathes unintentionally.",
+      "spritePath": "assets/sprites/pals/005.png",
+      "cryPath": "assets/cries/pals/005.ogg"
+    }
+  ]
+}
