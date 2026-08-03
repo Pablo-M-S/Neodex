@@ -196,6 +196,19 @@ int main(int, char**)
     ImGuiIO& io = ImGui::GetIO(); (void)io;
     ImGui::StyleColorsDark();
 
+    // Custom font (Fredoka - close free match to Palworld's rounded logo
+    // style). Falls back to ImGui's built-in font if the file is missing,
+    // so the app never crashes just because the font isn't there yet.
+    ImFont* customFont = io.Fonts->AddFontFromFileTTF("external/fonts/fredoka/Fredoka[wdth,wght].ttf", 22.0f);
+    if (customFont != nullptr)
+    {
+        io.FontDefault = customFont;
+    }
+    else
+    {
+        std::cerr << "Warning: could not load custom font, falling back to default ImGui font" << std::endl;
+    }
+
     ImGui_ImplSDL2_InitForOpenGL(window, gl_context);
     ImGui_ImplOpenGL3_Init("#version 300 es");
 
