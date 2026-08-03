@@ -8,7 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/data/data/com.termux/files/home/neodex_fixed/app/AudioLoader.cpp" "CMakeFiles/neodex_gui.dir/app/AudioLoader.cpp.o" "gcc" "CMakeFiles/neodex_gui.dir/app/AudioLoader.cpp.o.d"
   "/data/data/com.termux/files/home/neodex_fixed/app/Main.cpp" "CMakeFiles/neodex_gui.dir/app/Main.cpp.o" "gcc" "CMakeFiles/neodex_gui.dir/app/Main.cpp.o.d"
+  "/data/data/com.termux/files/home/neodex_fixed/app/TextureLoader.cpp" "CMakeFiles/neodex_gui.dir/app/TextureLoader.cpp.o" "gcc" "CMakeFiles/neodex_gui.dir/app/TextureLoader.cpp.o.d"
   "/data/data/com.termux/files/home/neodex_fixed/external/imgui/imgui.cpp" "CMakeFiles/neodex_gui.dir/external/imgui/imgui.cpp.o" "gcc" "CMakeFiles/neodex_gui.dir/external/imgui/imgui.cpp.o.d"
   "/data/data/com.termux/files/home/neodex_fixed/external/imgui/imgui_demo.cpp" "CMakeFiles/neodex_gui.dir/external/imgui/imgui_demo.cpp.o" "gcc" "CMakeFiles/neodex_gui.dir/external/imgui/imgui_demo.cpp.o.d"
   "/data/data/com.termux/files/home/neodex_fixed/external/imgui/imgui_draw.cpp" "CMakeFiles/neodex_gui.dir/external/imgui/imgui_draw.cpp.o" "gcc" "CMakeFiles/neodex_gui.dir/external/imgui/imgui_draw.cpp.o.d"

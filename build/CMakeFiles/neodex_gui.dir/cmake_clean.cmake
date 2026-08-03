@@ -1,7 +1,11 @@
 file(REMOVE_RECURSE
   "CMakeFiles/neodex_gui.dir/link.d"
+  "CMakeFiles/neodex_gui.dir/app/AudioLoader.cpp.o"
+  "CMakeFiles/neodex_gui.dir/app/AudioLoader.cpp.o.d"
   "CMakeFiles/neodex_gui.dir/app/Main.cpp.o"
   "CMakeFiles/neodex_gui.dir/app/Main.cpp.o.d"
+  "CMakeFiles/neodex_gui.dir/app/TextureLoader.cpp.o"
+  "CMakeFiles/neodex_gui.dir/app/TextureLoader.cpp.o.d"
   "CMakeFiles/neodex_gui.dir/external/imgui/imgui.cpp.o"
   "CMakeFiles/neodex_gui.dir/external/imgui/imgui.cpp.o.d"
   "CMakeFiles/neodex_gui.dir/external/imgui/imgui_demo.cpp.o"

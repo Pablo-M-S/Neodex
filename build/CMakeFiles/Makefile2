@@ -155,12 +155,12 @@ CMakeFiles/neodex_cli.dir/clean:
 CMakeFiles/neodex_gui.dir/all: CMakeFiles/neodex_core.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/neodex_gui.dir/build.make CMakeFiles/neodex_gui.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/neodex_gui.dir/build.make CMakeFiles/neodex_gui.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/data/data/com.termux/files/home/neodex_fixed/build/CMakeFiles --progress-num=10,11,12,13,14,15,16,17,18 "Built target neodex_gui"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/data/data/com.termux/files/home/neodex_fixed/build/CMakeFiles --progress-num=10,11,12,13,14,15,16,17,18,19,20 "Built target neodex_gui"
 .PHONY : CMakeFiles/neodex_gui.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/neodex_gui.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /data/data/com.termux/files/home/neodex_fixed/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /data/data/com.termux/files/home/neodex_fixed/build/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/neodex_gui.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /data/data/com.termux/files/home/neodex_fixed/build/CMakeFiles 0
 .PHONY : CMakeFiles/neodex_gui.dir/rule
@@ -172,7 +172,7 @@ neodex_gui: CMakeFiles/neodex_gui.dir/rule
 # codegen rule for target.
 CMakeFiles/neodex_gui.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/neodex_gui.dir/build.make CMakeFiles/neodex_gui.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/data/data/com.termux/files/home/neodex_fixed/build/CMakeFiles --progress-num=10,11,12,13,14,15,16,17,18 "Finished codegen for target neodex_gui"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/data/data/com.termux/files/home/neodex_fixed/build/CMakeFiles --progress-num=10,11,12,13,14,15,16,17,18,19,20 "Finished codegen for target neodex_gui"
 .PHONY : CMakeFiles/neodex_gui.dir/codegen
 
 # clean rule for target.

@@ -86,10 +86,38 @@ CMakeFiles/neodex_gui.dir/app/Main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/neodex_gui.dir/app/Main.cpp.s"
 	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/neodex_fixed/app/Main.cpp -o CMakeFiles/neodex_gui.dir/app/Main.cpp.s
 
+CMakeFiles/neodex_gui.dir/app/TextureLoader.cpp.o: CMakeFiles/neodex_gui.dir/flags.make
+CMakeFiles/neodex_gui.dir/app/TextureLoader.cpp.o: /data/data/com.termux/files/home/neodex_fixed/app/TextureLoader.cpp
+CMakeFiles/neodex_gui.dir/app/TextureLoader.cpp.o: CMakeFiles/neodex_gui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/neodex_fixed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/neodex_gui.dir/app/TextureLoader.cpp.o"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/neodex_gui.dir/app/TextureLoader.cpp.o -MF CMakeFiles/neodex_gui.dir/app/TextureLoader.cpp.o.d -o CMakeFiles/neodex_gui.dir/app/TextureLoader.cpp.o -c /data/data/com.termux/files/home/neodex_fixed/app/TextureLoader.cpp
+
+CMakeFiles/neodex_gui.dir/app/TextureLoader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/neodex_gui.dir/app/TextureLoader.cpp.i"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/neodex_fixed/app/TextureLoader.cpp > CMakeFiles/neodex_gui.dir/app/TextureLoader.cpp.i
+
+CMakeFiles/neodex_gui.dir/app/TextureLoader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/neodex_gui.dir/app/TextureLoader.cpp.s"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/neodex_fixed/app/TextureLoader.cpp -o CMakeFiles/neodex_gui.dir/app/TextureLoader.cpp.s
+
+CMakeFiles/neodex_gui.dir/app/AudioLoader.cpp.o: CMakeFiles/neodex_gui.dir/flags.make
+CMakeFiles/neodex_gui.dir/app/AudioLoader.cpp.o: /data/data/com.termux/files/home/neodex_fixed/app/AudioLoader.cpp
+CMakeFiles/neodex_gui.dir/app/AudioLoader.cpp.o: CMakeFiles/neodex_gui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/neodex_fixed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/neodex_gui.dir/app/AudioLoader.cpp.o"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/neodex_gui.dir/app/AudioLoader.cpp.o -MF CMakeFiles/neodex_gui.dir/app/AudioLoader.cpp.o.d -o CMakeFiles/neodex_gui.dir/app/AudioLoader.cpp.o -c /data/data/com.termux/files/home/neodex_fixed/app/AudioLoader.cpp
+
+CMakeFiles/neodex_gui.dir/app/AudioLoader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/neodex_gui.dir/app/AudioLoader.cpp.i"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/neodex_fixed/app/AudioLoader.cpp > CMakeFiles/neodex_gui.dir/app/AudioLoader.cpp.i
+
+CMakeFiles/neodex_gui.dir/app/AudioLoader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/neodex_gui.dir/app/AudioLoader.cpp.s"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/neodex_fixed/app/AudioLoader.cpp -o CMakeFiles/neodex_gui.dir/app/AudioLoader.cpp.s
+
 CMakeFiles/neodex_gui.dir/external/imgui/imgui.cpp.o: CMakeFiles/neodex_gui.dir/flags.make
 CMakeFiles/neodex_gui.dir/external/imgui/imgui.cpp.o: /data/data/com.termux/files/home/neodex_fixed/external/imgui/imgui.cpp
 CMakeFiles/neodex_gui.dir/external/imgui/imgui.cpp.o: CMakeFiles/neodex_gui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/neodex_fixed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/neodex_gui.dir/external/imgui/imgui.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/neodex_fixed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/neodex_gui.dir/external/imgui/imgui.cpp.o"
 	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/neodex_gui.dir/external/imgui/imgui.cpp.o -MF CMakeFiles/neodex_gui.dir/external/imgui/imgui.cpp.o.d -o CMakeFiles/neodex_gui.dir/external/imgui/imgui.cpp.o -c /data/data/com.termux/files/home/neodex_fixed/external/imgui/imgui.cpp
 
 CMakeFiles/neodex_gui.dir/external/imgui/imgui.cpp.i: cmake_force
@@ -103,7 +131,7 @@ CMakeFiles/neodex_gui.dir/external/imgui/imgui.cpp.s: cmake_force
 CMakeFiles/neodex_gui.dir/external/imgui/imgui_draw.cpp.o: CMakeFiles/neodex_gui.dir/flags.make
 CMakeFiles/neodex_gui.dir/external/imgui/imgui_draw.cpp.o: /data/data/com.termux/files/home/neodex_fixed/external/imgui/imgui_draw.cpp
 CMakeFiles/neodex_gui.dir/external/imgui/imgui_draw.cpp.o: CMakeFiles/neodex_gui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/neodex_fixed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/neodex_gui.dir/external/imgui/imgui_draw.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/neodex_fixed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/neodex_gui.dir/external/imgui/imgui_draw.cpp.o"
 	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/neodex_gui.dir/external/imgui/imgui_draw.cpp.o -MF CMakeFiles/neodex_gui.dir/external/imgui/imgui_draw.cpp.o.d -o CMakeFiles/neodex_gui.dir/external/imgui/imgui_draw.cpp.o -c /data/data/com.termux/files/home/neodex_fixed/external/imgui/imgui_draw.cpp
 
 CMakeFiles/neodex_gui.dir/external/imgui/imgui_draw.cpp.i: cmake_force
@@ -117,7 +145,7 @@ CMakeFiles/neodex_gui.dir/external/imgui/imgui_draw.cpp.s: cmake_force
 CMakeFiles/neodex_gui.dir/external/imgui/imgui_tables.cpp.o: CMakeFiles/neodex_gui.dir/flags.make
 CMakeFiles/neodex_gui.dir/external/imgui/imgui_tables.cpp.o: /data/data/com.termux/files/home/neodex_fixed/external/imgui/imgui_tables.cpp
 CMakeFiles/neodex_gui.dir/external/imgui/imgui_tables.cpp.o: CMakeFiles/neodex_gui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/neodex_fixed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/neodex_gui.dir/external/imgui/imgui_tables.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/neodex_fixed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/neodex_gui.dir/external/imgui/imgui_tables.cpp.o"
 	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/neodex_gui.dir/external/imgui/imgui_tables.cpp.o -MF CMakeFiles/neodex_gui.dir/external/imgui/imgui_tables.cpp.o.d -o CMakeFiles/neodex_gui.dir/external/imgui/imgui_tables.cpp.o -c /data/data/com.termux/files/home/neodex_fixed/external/imgui/imgui_tables.cpp
 
 CMakeFiles/neodex_gui.dir/external/imgui/imgui_tables.cpp.i: cmake_force
@@ -131,7 +159,7 @@ CMakeFiles/neodex_gui.dir/external/imgui/imgui_tables.cpp.s: cmake_force
 CMakeFiles/neodex_gui.dir/external/imgui/imgui_widgets.cpp.o: CMakeFiles/neodex_gui.dir/flags.make
 CMakeFiles/neodex_gui.dir/external/imgui/imgui_widgets.cpp.o: /data/data/com.termux/files/home/neodex_fixed/external/imgui/imgui_widgets.cpp
 CMakeFiles/neodex_gui.dir/external/imgui/imgui_widgets.cpp.o: CMakeFiles/neodex_gui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/neodex_fixed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/neodex_gui.dir/external/imgui/imgui_widgets.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/neodex_fixed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/neodex_gui.dir/external/imgui/imgui_widgets.cpp.o"
 	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/neodex_gui.dir/external/imgui/imgui_widgets.cpp.o -MF CMakeFiles/neodex_gui.dir/external/imgui/imgui_widgets.cpp.o.d -o CMakeFiles/neodex_gui.dir/external/imgui/imgui_widgets.cpp.o -c /data/data/com.termux/files/home/neodex_fixed/external/imgui/imgui_widgets.cpp
 
 CMakeFiles/neodex_gui.dir/external/imgui/imgui_widgets.cpp.i: cmake_force
@@ -145,7 +173,7 @@ CMakeFiles/neodex_gui.dir/external/imgui/imgui_widgets.cpp.s: cmake_force
 CMakeFiles/neodex_gui.dir/external/imgui/imgui_demo.cpp.o: CMakeFiles/neodex_gui.dir/flags.make
 CMakeFiles/neodex_gui.dir/external/imgui/imgui_demo.cpp.o: /data/data/com.termux/files/home/neodex_fixed/external/imgui/imgui_demo.cpp
 CMakeFiles/neodex_gui.dir/external/imgui/imgui_demo.cpp.o: CMakeFiles/neodex_gui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/neodex_fixed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/neodex_gui.dir/external/imgui/imgui_demo.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/neodex_fixed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/neodex_gui.dir/external/imgui/imgui_demo.cpp.o"
 	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/neodex_gui.dir/external/imgui/imgui_demo.cpp.o -MF CMakeFiles/neodex_gui.dir/external/imgui/imgui_demo.cpp.o.d -o CMakeFiles/neodex_gui.dir/external/imgui/imgui_demo.cpp.o -c /data/data/com.termux/files/home/neodex_fixed/external/imgui/imgui_demo.cpp
 
 CMakeFiles/neodex_gui.dir/external/imgui/imgui_demo.cpp.i: cmake_force
@@ -159,7 +187,7 @@ CMakeFiles/neodex_gui.dir/external/imgui/imgui_demo.cpp.s: cmake_force
 CMakeFiles/neodex_gui.dir/external/imgui_backends/imgui_impl_sdl2.cpp.o: CMakeFiles/neodex_gui.dir/flags.make
 CMakeFiles/neodex_gui.dir/external/imgui_backends/imgui_impl_sdl2.cpp.o: /data/data/com.termux/files/home/neodex_fixed/external/imgui_backends/imgui_impl_sdl2.cpp
 CMakeFiles/neodex_gui.dir/external/imgui_backends/imgui_impl_sdl2.cpp.o: CMakeFiles/neodex_gui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/neodex_fixed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/neodex_gui.dir/external/imgui_backends/imgui_impl_sdl2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/neodex_fixed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/neodex_gui.dir/external/imgui_backends/imgui_impl_sdl2.cpp.o"
 	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/neodex_gui.dir/external/imgui_backends/imgui_impl_sdl2.cpp.o -MF CMakeFiles/neodex_gui.dir/external/imgui_backends/imgui_impl_sdl2.cpp.o.d -o CMakeFiles/neodex_gui.dir/external/imgui_backends/imgui_impl_sdl2.cpp.o -c /data/data/com.termux/files/home/neodex_fixed/external/imgui_backends/imgui_impl_sdl2.cpp
 
 CMakeFiles/neodex_gui.dir/external/imgui_backends/imgui_impl_sdl2.cpp.i: cmake_force
@@ -173,7 +201,7 @@ CMakeFiles/neodex_gui.dir/external/imgui_backends/imgui_impl_sdl2.cpp.s: cmake_f
 CMakeFiles/neodex_gui.dir/external/imgui_backends/imgui_impl_opengl3.cpp.o: CMakeFiles/neodex_gui.dir/flags.make
 CMakeFiles/neodex_gui.dir/external/imgui_backends/imgui_impl_opengl3.cpp.o: /data/data/com.termux/files/home/neodex_fixed/external/imgui_backends/imgui_impl_opengl3.cpp
 CMakeFiles/neodex_gui.dir/external/imgui_backends/imgui_impl_opengl3.cpp.o: CMakeFiles/neodex_gui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/neodex_fixed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/neodex_gui.dir/external/imgui_backends/imgui_impl_opengl3.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/neodex_fixed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/neodex_gui.dir/external/imgui_backends/imgui_impl_opengl3.cpp.o"
 	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/neodex_gui.dir/external/imgui_backends/imgui_impl_opengl3.cpp.o -MF CMakeFiles/neodex_gui.dir/external/imgui_backends/imgui_impl_opengl3.cpp.o.d -o CMakeFiles/neodex_gui.dir/external/imgui_backends/imgui_impl_opengl3.cpp.o -c /data/data/com.termux/files/home/neodex_fixed/external/imgui_backends/imgui_impl_opengl3.cpp
 
 CMakeFiles/neodex_gui.dir/external/imgui_backends/imgui_impl_opengl3.cpp.i: cmake_force
@@ -187,6 +215,8 @@ CMakeFiles/neodex_gui.dir/external/imgui_backends/imgui_impl_opengl3.cpp.s: cmak
 # Object files for target neodex_gui
 neodex_gui_OBJECTS = \
 "CMakeFiles/neodex_gui.dir/app/Main.cpp.o" \
+"CMakeFiles/neodex_gui.dir/app/TextureLoader.cpp.o" \
+"CMakeFiles/neodex_gui.dir/app/AudioLoader.cpp.o" \
 "CMakeFiles/neodex_gui.dir/external/imgui/imgui.cpp.o" \
 "CMakeFiles/neodex_gui.dir/external/imgui/imgui_draw.cpp.o" \
 "CMakeFiles/neodex_gui.dir/external/imgui/imgui_tables.cpp.o" \
@@ -199,6 +229,8 @@ neodex_gui_OBJECTS = \
 neodex_gui_EXTERNAL_OBJECTS =
 
 neodex_gui: CMakeFiles/neodex_gui.dir/app/Main.cpp.o
+neodex_gui: CMakeFiles/neodex_gui.dir/app/TextureLoader.cpp.o
+neodex_gui: CMakeFiles/neodex_gui.dir/app/AudioLoader.cpp.o
 neodex_gui: CMakeFiles/neodex_gui.dir/external/imgui/imgui.cpp.o
 neodex_gui: CMakeFiles/neodex_gui.dir/external/imgui/imgui_draw.cpp.o
 neodex_gui: CMakeFiles/neodex_gui.dir/external/imgui/imgui_tables.cpp.o
@@ -211,7 +243,7 @@ neodex_gui: CMakeFiles/neodex_gui.dir/compiler_depend.ts
 neodex_gui: libneodex_core.a
 neodex_gui: /data/data/com.termux/files/usr/lib/libSDL2.so
 neodex_gui: CMakeFiles/neodex_gui.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/data/data/com.termux/files/home/neodex_fixed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable neodex_gui"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/data/data/com.termux/files/home/neodex_fixed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable neodex_gui"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/neodex_gui.dir/link.txt --verbose=$(VERBOSE)
 	/data/data/com.termux/files/usr/bin/cmake -E copy_directory /data/data/com.termux/files/home/neodex_fixed/data /data/data/com.termux/files/home/neodex_fixed/build/data
 

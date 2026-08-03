@@ -156,6 +156,30 @@ neodex_gui/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/neodex_gui.dir/build.make CMakeFiles/neodex_gui.dir/build
 .PHONY : neodex_gui/fast
 
+app/AudioLoader.o: app/AudioLoader.cpp.o
+.PHONY : app/AudioLoader.o
+
+# target to build an object file
+app/AudioLoader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neodex_gui.dir/build.make CMakeFiles/neodex_gui.dir/app/AudioLoader.cpp.o
+.PHONY : app/AudioLoader.cpp.o
+
+app/AudioLoader.i: app/AudioLoader.cpp.i
+.PHONY : app/AudioLoader.i
+
+# target to preprocess a source file
+app/AudioLoader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neodex_gui.dir/build.make CMakeFiles/neodex_gui.dir/app/AudioLoader.cpp.i
+.PHONY : app/AudioLoader.cpp.i
+
+app/AudioLoader.s: app/AudioLoader.cpp.s
+.PHONY : app/AudioLoader.s
+
+# target to generate assembly for a file
+app/AudioLoader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neodex_gui.dir/build.make CMakeFiles/neodex_gui.dir/app/AudioLoader.cpp.s
+.PHONY : app/AudioLoader.cpp.s
+
 app/Main.o: app/Main.cpp.o
 .PHONY : app/Main.o
 
@@ -179,6 +203,30 @@ app/Main.s: app/Main.cpp.s
 app/Main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/neodex_gui.dir/build.make CMakeFiles/neodex_gui.dir/app/Main.cpp.s
 .PHONY : app/Main.cpp.s
+
+app/TextureLoader.o: app/TextureLoader.cpp.o
+.PHONY : app/TextureLoader.o
+
+# target to build an object file
+app/TextureLoader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neodex_gui.dir/build.make CMakeFiles/neodex_gui.dir/app/TextureLoader.cpp.o
+.PHONY : app/TextureLoader.cpp.o
+
+app/TextureLoader.i: app/TextureLoader.cpp.i
+.PHONY : app/TextureLoader.i
+
+# target to preprocess a source file
+app/TextureLoader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neodex_gui.dir/build.make CMakeFiles/neodex_gui.dir/app/TextureLoader.cpp.i
+.PHONY : app/TextureLoader.cpp.i
+
+app/TextureLoader.s: app/TextureLoader.cpp.s
+.PHONY : app/TextureLoader.s
+
+# target to generate assembly for a file
+app/TextureLoader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neodex_gui.dir/build.make CMakeFiles/neodex_gui.dir/app/TextureLoader.cpp.s
+.PHONY : app/TextureLoader.cpp.s
 
 core/src/Card.o: core/src/Card.cpp.o
 .PHONY : core/src/Card.o
@@ -527,9 +575,15 @@ help:
 	@echo "... neodex_cli"
 	@echo "... neodex_core"
 	@echo "... neodex_gui"
+	@echo "... app/AudioLoader.o"
+	@echo "... app/AudioLoader.i"
+	@echo "... app/AudioLoader.s"
 	@echo "... app/Main.o"
 	@echo "... app/Main.i"
 	@echo "... app/Main.s"
+	@echo "... app/TextureLoader.o"
+	@echo "... app/TextureLoader.i"
+	@echo "... app/TextureLoader.s"
 	@echo "... core/src/Card.o"
 	@echo "... core/src/Card.i"
 	@echo "... core/src/Card.s"

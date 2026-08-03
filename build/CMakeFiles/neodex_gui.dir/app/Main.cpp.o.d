@@ -278,6 +278,7 @@ CMakeFiles/neodex_gui.dir/app/Main.cpp.o: \
   /data/data/com.termux/files/usr/bin/../../usr/include/KHR/khrplatform.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/GLES2/gl2.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/GLES2/gl2ext.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/SDL2/SDL_mixer.h \
   /data/data/com.termux/files/home/neodex_fixed/external/imgui/imgui.h \
   /data/data/com.termux/files/home/neodex_fixed/external/imgui/imconfig.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/assert.h \
@@ -673,20 +674,41 @@ CMakeFiles/neodex_gui.dir/app/Main.cpp.o: \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/pstl.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/sample.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/bit \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/iostream \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/ios \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/vector \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__vector/comparison.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/lexicographical_compare_three_way.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/three_way_comp_ref_type.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__fwd/vector.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__vector/swap.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__vector/vector.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_copy_n.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/in_out_result.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_copy.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__iterator/unreachable_sentinel.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__memory/temp_value.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__split_buffer \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__vector/container_traits.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__type_traits/container_traits.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__vector/vector_bool.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__bit_reference \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__vector/pmr.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/array \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__iterator/static_bounded_iter.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/cerrno \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/clocale \
+  /data/data/com.termux/files/usr/bin/../../usr/include/locale.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/locale \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__locale \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__locale_dir/locale_base_api.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__locale_dir/locale_base_api/android.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__locale_dir/locale_base_api/bsd_locale_fallbacks.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/locale.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__mutex/once_flag.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__utility/no_destroy.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/clocale \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__locale_dir/pad_and_output.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/ios \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__system_error/error_category.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__system_error/error_code.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__system_error/errc.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/cerrno \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__system_error/error_condition.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__system_error/system_error.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/mutex \
@@ -698,32 +720,16 @@ CMakeFiles/neodex_gui.dir/app/Main.cpp.o: \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__mutex/lock_guard.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__thread/id.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/system_error \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/istream \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__ostream/basic_ostream.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__ostream/put_character_sequence.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__locale_dir/pad_and_output.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/bitset \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__bit_reference \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__type_traits/is_char_like_type.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/locale \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/streambuf \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/cstdarg \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/ostream \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/format \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/array \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/lexicographical_compare_three_way.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/three_way_comp_ref_type.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__iterator/static_bounded_iter.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/queue \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_copy.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/in_out_result.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__fwd/deque.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__fwd/queue.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__fwd/vector.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/deque \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__memory/temp_value.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__split_buffer \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__type_traits/container_traits.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/set \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__functional/is_transparent.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__iterator/erase_if_container.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__iterator/ranges_iterator_traits.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__node_handle \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__tree \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__type_traits/can_extract_key.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__type_traits/remove_const_ref.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/functional \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__functional/binary_negate.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__functional/bind.h \
@@ -737,26 +743,23 @@ CMakeFiles/neodex_gui.dir/app/Main.cpp.o: \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__functional/function.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__type_traits/strip_signature.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__functional/boyer_moore_searcher.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__vector/vector.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_copy_n.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__iterator/unreachable_sentinel.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__vector/comparison.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__vector/container_traits.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__vector/swap.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/unordered_map \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__functional/is_transparent.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__hash_table \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__type_traits/can_extract_key.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__type_traits/remove_const_ref.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__iterator/erase_if_container.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__iterator/ranges_iterator_traits.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__node_handle \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__functional/default_searcher.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__functional/not_fn.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__functional/perfect_forward.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/vector \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__vector/vector_bool.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__vector/pmr.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/iostream \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/istream \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__ostream/basic_ostream.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__ostream/put_character_sequence.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/bitset \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__type_traits/is_char_like_type.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/ostream \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/format \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/queue \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__fwd/deque.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__fwd/queue.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/deque \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/stack \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__fwd/stack.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/print \
@@ -767,4 +770,6 @@ CMakeFiles/neodex_gui.dir/app/Main.cpp.o: \
   /data/data/com.termux/files/home/neodex_fixed/core/include/Ability.h \
   /data/data/com.termux/files/home/neodex_fixed/core/include/CardDatabase.h \
   /data/data/com.termux/files/home/neodex_fixed/core/include/Card.h \
-  /data/data/com.termux/files/home/neodex_fixed/core/include/SetLoader.h
+  /data/data/com.termux/files/home/neodex_fixed/core/include/SetLoader.h \
+  /data/data/com.termux/files/home/neodex_fixed/app/TextureLoader.h \
+  /data/data/com.termux/files/home/neodex_fixed/app/AudioLoader.h

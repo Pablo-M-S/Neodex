@@ -50,9 +50,12 @@ add_custom_command(TARGET neodex_cli POST_BUILD
 # ---------------------------------------------------------------------------
 
 find_package(SDL2 REQUIRED)
+# Nota: no Android/Termux nao existe OpenGL desktop (libGL), so OpenGL ES.
+# Por isso linkamos direto com GLESv2/EGL em vez de usar find_package(OpenGL).
 
 set(IMGUI_DIR ${CMAKE_CURRENT_SOURCE_DIR}/external/imgui)
 set(IMGUI_BACKENDS_DIR ${CMAKE_CURRENT_SOURCE_DIR}/external/imgui_backends)
+set(STB_DIR ${CMAKE_CURRENT_SOURCE_DIR}/external/stb)
 
 set(IMGUI_SOURCES
     ${IMGUI_DIR}/imgui.cpp
@@ -64,20 +67,26 @@ set(IMGUI_SOURCES
     ${IMGUI_BACKENDS_DIR}/imgui_impl_opengl3.cpp
 )
 
-add_executable(neodex_gui app/Main.cpp ${IMGUI_SOURCES})
+add_executable(neodex_gui app/Main.cpp app/TextureLoader.cpp app/AudioLoader.cpp ${IMGUI_SOURCES})
 
 target_include_directories(neodex_gui PRIVATE
     ${IMGUI_DIR}
     ${IMGUI_BACKENDS_DIR}
+    ${STB_DIR}
     ${SDL2_INCLUDE_DIRS}
 )
 
 target_link_libraries(neodex_gui PRIVATE
     neodex_core
     ${SDL2_LIBRARIES}
+    SDL2_mixer
     GLESv2
     EGL
 )
+
+# Forca o backend do ImGui a usar o loader de OpenGL ES 3.0 (evita deteccao
+# automatica errada, que por padrao assume OpenGL desktop).
+target_compile_definitions(neodex_gui PRIVATE IMGUI_IMPL_OPENGL_ES3)
 
 add_custom_command(TARGET neodex_gui POST_BUILD
     COMMAND ${CMAKE_COMMAND} -E copy_directory

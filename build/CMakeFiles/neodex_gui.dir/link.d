@@ -1,6 +1,8 @@
 neodex_gui: \
  /data/data/com.termux/files/usr/lib/crtbegin_dynamic.o \
  CMakeFiles/neodex_gui.dir/app/Main.cpp.o \
+ CMakeFiles/neodex_gui.dir/app/TextureLoader.cpp.o \
+ CMakeFiles/neodex_gui.dir/app/AudioLoader.cpp.o \
  CMakeFiles/neodex_gui.dir/external/imgui/imgui.cpp.o \
  CMakeFiles/neodex_gui.dir/external/imgui/imgui_draw.cpp.o \
  CMakeFiles/neodex_gui.dir/external/imgui/imgui_tables.cpp.o \
@@ -10,6 +12,7 @@ neodex_gui: \
  CMakeFiles/neodex_gui.dir/external/imgui_backends/imgui_impl_opengl3.cpp.o \
  libneodex_core.a \
  /data/data/com.termux/files/usr/lib/libSDL2.so \
+ /data/data/com.termux/files/usr/lib/libSDL2_mixer.so \
  /data/data/com.termux/files/usr/lib/libGLESv2.so \
  /data/data/com.termux/files/usr/lib/libEGL.so \
  /data/data/com.termux/files/usr/lib/libc++_shared.so \
@@ -23,6 +26,10 @@ neodex_gui: \
 /data/data/com.termux/files/usr/lib/crtbegin_dynamic.o:
 
 CMakeFiles/neodex_gui.dir/app/Main.cpp.o:
+
+CMakeFiles/neodex_gui.dir/app/TextureLoader.cpp.o:
+
+CMakeFiles/neodex_gui.dir/app/AudioLoader.cpp.o:
 
 CMakeFiles/neodex_gui.dir/external/imgui/imgui.cpp.o:
 
@@ -41,6 +48,8 @@ CMakeFiles/neodex_gui.dir/external/imgui_backends/imgui_impl_opengl3.cpp.o:
 libneodex_core.a:
 
 /data/data/com.termux/files/usr/lib/libSDL2.so:
+
+/data/data/com.termux/files/usr/lib/libSDL2_mixer.so:
 
 /data/data/com.termux/files/usr/lib/libGLESv2.so:
 
