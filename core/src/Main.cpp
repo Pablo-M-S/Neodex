@@ -29,13 +29,16 @@ int main()
     Pal first = pals.getPal(1);
     std::cout << "First Pal: " << first.getName() << std::endl;
 
-    Pal last = pals.getPal(pals.getPalCount());
-    std::cout << "Last Pal: " << last.getName() << std::endl;
-
-    std::cout << first.getName() << " stat total: " << first.getStats().getTotal() << std::endl;
-
     std::vector<Card> firstPalCards = cards.getCardsForPal(1);
     std::cout << first.getName() << " has " << firstPalCards.size() << " card(s)" << std::endl;
+
+    int palCardCount = 0;
+    for (int i = 0; i < cards.getCardCount(); i++)
+    {
+        if (cards.getCard(i).getCardType() == CardType::Pal)
+            palCardCount++;
+    }
+    std::cout << "Pal-type cards in set: " << palCardCount << std::endl;
 
     first.catchPal();
     std::cout << first.getName() << " caught? " << (first.isCaught() ? "Yes" : "No") << std::endl;

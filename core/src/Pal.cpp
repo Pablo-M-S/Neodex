@@ -8,21 +8,19 @@ Pal::Pal(
     const std::string& palName,
     PalElement element1,
     PalElement element2,
-    PalStats baseStats
+    int minRecruitLevel
 )
 :
 palNumber(number),
 name(palName),
 primaryElement(element1),
 secondaryElement(element2),
-stats(baseStats),
+recruitLevel(minRecruitLevel),
 abilities({}),
 spritePath(""),
 cryPath(""),
 caught(false),
-description(""),
-height(0.0f),
-weight(0.0f)
+description("")
 {
 }
 
@@ -51,9 +49,9 @@ PalElement Pal::getSecondaryElement() const
 }
 
 
-PalStats Pal::getStats() const
+int Pal::getRecruitLevel() const
 {
-    return stats;
+    return recruitLevel;
 }
 
 
@@ -107,30 +105,6 @@ void Pal::setDescription(const std::string& text)
 std::string Pal::getDescription() const
 {
     return description;
-}
-
-
-void Pal::setHeight(float value)
-{
-    height = value;
-}
-
-
-float Pal::getHeight() const
-{
-    return height;
-}
-
-
-void Pal::setWeight(float value)
-{
-    weight = value;
-}
-
-
-float Pal::getWeight() const
-{
-    return weight;
 }
 
 void Pal::setAbilities(const Ability& value)

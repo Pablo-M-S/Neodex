@@ -3,7 +3,6 @@
 #include "../include/JsonValue.h"
 #include "../include/Pal.h"
 #include "../include/PalElement.h"
-#include "../include/PalStats.h"
 #include "../include/Card.h"
 #include "../include/Ability.h"
 
@@ -26,6 +25,7 @@ namespace
             {"Electric", PalElement::Electric},
             {"Ice", PalElement::Ice},
             {"Earth", PalElement::Earth},
+            {"Ground", PalElement::Earth}, // TCG/wiki sources call this "Ground"
             {"Dark", PalElement::Dark},
             {"Dragon", PalElement::Dragon},
         };
@@ -41,18 +41,39 @@ namespace
     CardRarity parseRarity(const std::string& name)
     {
         static const std::unordered_map<std::string, CardRarity> table = {
+            {"C", CardRarity::Common},
             {"Common", CardRarity::Common},
+            {"U", CardRarity::Uncommon},
             {"Uncommon", CardRarity::Uncommon},
+            {"R", CardRarity::Rare},
             {"Rare", CardRarity::Rare},
-            {"SuperRare", CardRarity::SuperRare},
-            {"UltraRare", CardRarity::UltraRare},
-            {"SecretRare", CardRarity::SecretRare},
+            {"RR", CardRarity::DoubleRare},
+            {"DoubleRare", CardRarity::DoubleRare},
+            {"Unknown", CardRarity::Unknown},
         };
 
         auto it = table.find(name);
         if(it == table.end())
         {
-            throw std::runtime_error("SetLoader: unknown CardRarity '" + name + "'");
+            return CardRarity::Unknown;
+        }
+        return it->second;
+    }
+
+    CardType parseCardType(const std::string& name)
+    {
+        static const std::unordered_map<std::string, CardType> table = {
+            {"Pal", CardType::Pal},
+            {"Gear", CardType::Gear},
+            {"Structure", CardType::Structure},
+            {"Event", CardType::Event},
+            {"Soul", CardType::Soul},
+        };
+
+        auto it = table.find(name);
+        if(it == table.end())
+        {
+            throw std::runtime_error("SetLoader: unknown CardType '" + name + "'");
         }
         return it->second;
     }
@@ -78,17 +99,10 @@ void SetLoader::loadPals(
         PalElement element1 = elementNames.size() > 0 ? parseElement(elementNames[0]) : PalElement::None;
         PalElement element2 = elementNames.size() > 1 ? parseElement(elementNames[1]) : PalElement::None;
 
-        const JsonValue& statsJson = entry["stats"];
-        PalStats stats(
-            statsJson["hp"].asInt(),
-            statsJson["attack"].asInt(),
-            statsJson["defense"].asInt()
-        );
+        int recruitLevel = entry.hasKey("recruitLevel") ? entry["recruitLevel"].asInt() : 1;
 
-        Pal pal(number, name, element1, element2, stats);
+        Pal pal(number, name, element1, element2, recruitLevel);
 
-        pal.setHeight(static_cast<float>(entry["height"].asDouble()));
-        pal.setWeight(static_cast<float>(entry["weight"].asDouble()));
         pal.setDescription(entry["description"].asString());
         pal.setSpritePath(entry["spritePath"].asString());
         pal.setCryPath(entry["cryPath"].asString());
@@ -125,10 +139,22 @@ void SetLoader::loadSet(
         const JsonValue& entry = cardArray[i];
 
         std::string cardId = entry["cardId"].asString();
-        int palNumber = entry["palNumber"].asInt();
+        std::string name = entry["name"].asString();
+        std::string subtitle = entry.hasKey("subtitle") ? entry["subtitle"].asString() : "";
+        int palNumber = entry.hasKey("palNumber") ? entry["palNumber"].asInt() : -1;
+        CardType type = parseCardType(entry["cardType"].asString());
         CardRarity rarity = parseRarity(entry["rarity"].asString());
 
-        Card card(cardId, palNumber, setCode, setName, rarity);
+        Card card(cardId, name, subtitle, palNumber, type, setCode, setName, rarity);
+
+        if(entry.hasKey("cost") && entry.hasKey("power") && entry.hasKey("strike"))
+        {
+            card.setStats(
+                entry["cost"].asInt(-1),
+                entry["power"].asInt(-1),
+                entry["strike"].asInt(-1)
+            );
+        }
 
         if(entry.hasKey("artPath"))
         {

@@ -2,7 +2,6 @@
 
 #include <string>
 #include "PalElement.h"
-#include "PalStats.h"
 #include "Ability.h"
 
 namespace NeoDex
@@ -18,7 +17,7 @@ private:
     PalElement primaryElement;
     PalElement secondaryElement;
 
-    PalStats stats;
+    int recruitLevel; // minimum level at which this Pal is found/tamed
 
     Ability abilities; // Palworld "Partner Skill" / passive skills
 
@@ -28,9 +27,6 @@ private:
 
     std::string description;
 
-    float height;
-    float weight;
-
 public:
 
     Pal(
@@ -38,7 +34,7 @@ public:
         const std::string& palName,
         PalElement element1,
         PalElement element2,
-        PalStats baseStats
+        int minRecruitLevel
     );
 
     void setAbilities(const Ability& value);
@@ -50,7 +46,7 @@ public:
     PalElement getPrimaryElement() const;
     PalElement getSecondaryElement() const;
 
-    PalStats getStats() const;
+    int getRecruitLevel() const;
 
     void setSpritePath(const std::string& path);
     std::string getSpritePath() const;
@@ -66,12 +62,7 @@ public:
     void setDescription(const std::string& text);
     std::string getDescription() const;
 
-    void setHeight(float value);
-    float getHeight() const;
-
-    void setWeight(float value);
-    float getWeight() const;
-
 };
 
 }
+

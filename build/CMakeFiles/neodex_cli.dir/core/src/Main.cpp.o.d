@@ -696,7 +696,6 @@ CMakeFiles/neodex_cli.dir/core/src/Main.cpp.o: \
   /data/data/com.termux/files/home/neodex_fixed/core/src/../include/PalDatabase.h \
   /data/data/com.termux/files/home/neodex_fixed/core/src/../include/Pal.h \
   /data/data/com.termux/files/home/neodex_fixed/core/src/../include/PalElement.h \
-  /data/data/com.termux/files/home/neodex_fixed/core/src/../include/PalStats.h \
   /data/data/com.termux/files/home/neodex_fixed/core/src/../include/Ability.h \
   /data/data/com.termux/files/home/neodex_fixed/core/src/../include/CardDatabase.h \
   /data/data/com.termux/files/home/neodex_fixed/core/src/../include/Card.h \

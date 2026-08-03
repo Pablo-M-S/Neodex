@@ -3,62 +3,976 @@
     {
       "number": 1,
       "name": "Lamball",
-      "elements": ["Neutral"],
-      "stats": { "hp": 70, "attack": 70, "defense": 70 },
-      "abilities": { "primary": "Fluffy Shield", "secondary": "", "hidden": "" },
-      "height": 0.0,
-      "weight": 0.0,
-      "description": "A walk up a hill tends to end with this Pal tumbling back down.",
-      "spritePath": "assets/sprites/pals/001.png",
-      "cryPath": "assets/cries/pals/001.ogg"
+      "elements": [
+        "Neutral"
+      ],
+      "recruitLevel": 1,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/lamball.png",
+      "cryPath": "assets/cries/pals/lamball.ogg"
     },
     {
       "number": 2,
       "name": "Cattiva",
-      "elements": ["Neutral"],
-      "stats": { "hp": 70, "attack": 70, "defense": 70 },
-      "abilities": { "primary": "Cat Helper", "secondary": "", "hidden": "" },
-      "height": 0.0,
-      "weight": 0.0,
-      "description": "At a glance it appears full of confidence, but it is in fact weak and cowardly.",
-      "spritePath": "assets/sprites/pals/002.png",
-      "cryPath": "assets/cries/pals/002.ogg"
+      "elements": [
+        "Neutral"
+      ],
+      "recruitLevel": 1,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/cattiva.png",
+      "cryPath": "assets/cries/pals/cattiva.ogg"
     },
     {
       "number": 3,
       "name": "Chikipi",
-      "elements": ["Neutral"],
-      "stats": { "hp": 60, "attack": 70, "defense": 60 },
-      "abilities": { "primary": "", "secondary": "", "hidden": "" },
-      "height": 0.0,
-      "weight": 0.0,
-      "description": "Extremely weak and far too delicious.",
-      "spritePath": "assets/sprites/pals/003.png",
-      "cryPath": "assets/cries/pals/003.ogg"
-    },
-    {
-      "number": 4,
-      "name": "Lifmunk",
-      "elements": ["Grass"],
-      "stats": { "hp": 75, "attack": 70, "defense": 70 },
-      "abilities": { "primary": "", "secondary": "", "hidden": "" },
-      "height": 0.0,
-      "weight": 0.0,
-      "description": "A small pale yellow and green Pal that carries a submachine gun and can jump onto your head to help attack.",
-      "spritePath": "assets/sprites/pals/004.png",
-      "cryPath": "assets/cries/pals/004.ogg"
+      "elements": [
+        "Neutral"
+      ],
+      "recruitLevel": 1,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/chikipi.png",
+      "cryPath": "assets/cries/pals/chikipi.ogg"
     },
     {
       "number": 5,
       "name": "Foxparks",
-      "elements": ["Fire"],
-      "stats": { "hp": 65, "attack": 75, "defense": 60 },
-      "abilities": { "primary": "Huggy Fire", "secondary": "", "hidden": "" },
-      "height": 0.0,
-      "weight": 0.0,
-      "description": "It is unskilled at controlling fire from the moment it is born and tends to choke on the flames it breathes unintentionally.",
-      "spritePath": "assets/sprites/pals/005.png",
-      "cryPath": "assets/cries/pals/005.ogg"
+      "elements": [
+        "Fire"
+      ],
+      "recruitLevel": 1,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/foxparks.png",
+      "cryPath": "assets/cries/pals/foxparks.ogg"
+    },
+    {
+      "number": 6,
+      "name": "Fuack",
+      "elements": [
+        "Water"
+      ],
+      "recruitLevel": 1,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/fuack.png",
+      "cryPath": "assets/cries/pals/fuack.ogg"
+    },
+    {
+      "number": 7,
+      "name": "Sparkit",
+      "elements": [
+        "Electric"
+      ],
+      "recruitLevel": 1,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/sparkit.png",
+      "cryPath": "assets/cries/pals/sparkit.ogg"
+    },
+    {
+      "number": 8,
+      "name": "Tanzee",
+      "elements": [
+        "Grass"
+      ],
+      "recruitLevel": 1,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/tanzee.png",
+      "cryPath": "assets/cries/pals/tanzee.ogg"
+    },
+    {
+      "number": 10,
+      "name": "Pengullet",
+      "elements": [
+        "Water",
+        "Ice"
+      ],
+      "recruitLevel": 1,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/pengullet.png",
+      "cryPath": "assets/cries/pals/pengullet.ogg"
+    },
+    {
+      "number": 11,
+      "name": "Penking",
+      "elements": [
+        "Water",
+        "Ice"
+      ],
+      "recruitLevel": 6,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/penking.png",
+      "cryPath": "assets/cries/pals/penking.ogg"
+    },
+    {
+      "number": 13,
+      "name": "Lifmunk",
+      "elements": [
+        "Grass"
+      ],
+      "recruitLevel": 1,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/lifmunk.png",
+      "cryPath": "assets/cries/pals/lifmunk.ogg"
+    },
+    {
+      "number": 13,
+      "name": "Gumoss",
+      "elements": [
+        "Grass",
+        "Ground"
+      ],
+      "recruitLevel": 1,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/gumoss.png",
+      "cryPath": "assets/cries/pals/gumoss.ogg"
+    },
+    {
+      "number": 16,
+      "name": "Teafant",
+      "elements": [
+        "Water"
+      ],
+      "recruitLevel": 1,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/teafant.png",
+      "cryPath": "assets/cries/pals/teafant.ogg"
+    },
+    {
+      "number": 17,
+      "name": "Depresso",
+      "elements": [
+        "Dark"
+      ],
+      "recruitLevel": 1,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/depresso.png",
+      "cryPath": "assets/cries/pals/depresso.ogg"
+    },
+    {
+      "number": 19,
+      "name": "Daedream",
+      "elements": [
+        "Dark"
+      ],
+      "recruitLevel": 1,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/daedream.png",
+      "cryPath": "assets/cries/pals/daedream.ogg"
+    },
+    {
+      "number": 20,
+      "name": "Rushoar",
+      "elements": [
+        "Ground"
+      ],
+      "recruitLevel": 1,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/rushoar.png",
+      "cryPath": "assets/cries/pals/rushoar.ogg"
+    },
+    {
+      "number": 21,
+      "name": "Nox",
+      "elements": [
+        "Dark"
+      ],
+      "recruitLevel": 6,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/nox.png",
+      "cryPath": "assets/cries/pals/nox.ogg"
+    },
+    {
+      "number": 23,
+      "name": "Rooby",
+      "elements": [
+        "Fire"
+      ],
+      "recruitLevel": 2,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/rooby.png",
+      "cryPath": "assets/cries/pals/rooby.ogg"
+    },
+    {
+      "number": 24,
+      "name": "Mau Cryst",
+      "elements": [
+        "Ice"
+      ],
+      "recruitLevel": 2,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/mau-cryst.png",
+      "cryPath": "assets/cries/pals/mau-cryst.ogg"
+    },
+    {
+      "number": 25,
+      "name": "Celaray",
+      "elements": [
+        "Water"
+      ],
+      "recruitLevel": 3,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/celaray.png",
+      "cryPath": "assets/cries/pals/celaray.ogg"
+    },
+    {
+      "number": 26,
+      "name": "Direhowl",
+      "elements": [
+        "Neutral"
+      ],
+      "recruitLevel": 2,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/direhowl.png",
+      "cryPath": "assets/cries/pals/direhowl.ogg"
+    },
+    {
+      "number": 31,
+      "name": "Gobfin Ignis",
+      "elements": [
+        "Fire"
+      ],
+      "recruitLevel": 3,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/gobfin-ignis.png",
+      "cryPath": "assets/cries/pals/gobfin-ignis.ogg"
+    },
+    {
+      "number": 43,
+      "name": "Dumud",
+      "elements": [
+        "Ground"
+      ],
+      "recruitLevel": 4,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/dumud.png",
+      "cryPath": "assets/cries/pals/dumud.ogg"
+    },
+    {
+      "number": 46,
+      "name": "Loupmoon",
+      "elements": [
+        "Dark"
+      ],
+      "recruitLevel": 3,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/loupmoon.png",
+      "cryPath": "assets/cries/pals/loupmoon.ogg"
+    },
+    {
+      "number": 50,
+      "name": "Beegarde",
+      "elements": [
+        "Grass"
+      ],
+      "recruitLevel": 4,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/beegarde.png",
+      "cryPath": "assets/cries/pals/beegarde.ogg"
+    },
+    {
+      "number": 51,
+      "name": "Elizabee",
+      "elements": [
+        "Grass"
+      ],
+      "recruitLevel": 8,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/elizabee.png",
+      "cryPath": "assets/cries/pals/elizabee.ogg"
+    },
+    {
+      "number": 55,
+      "name": "Chillet",
+      "elements": [
+        "Ice",
+        "Dragon"
+      ],
+      "recruitLevel": 4,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/chillet.png",
+      "cryPath": "assets/cries/pals/chillet.ogg"
+    },
+    {
+      "number": 56,
+      "name": "Univolt",
+      "elements": [
+        "Electric"
+      ],
+      "recruitLevel": 5,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/univolt.png",
+      "cryPath": "assets/cries/pals/univolt.ogg"
+    },
+    {
+      "number": 58,
+      "name": "Pyrin",
+      "elements": [
+        "Fire"
+      ],
+      "recruitLevel": 6,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/pyrin.png",
+      "cryPath": "assets/cries/pals/pyrin.ogg"
+    },
+    {
+      "number": 58,
+      "name": "Pyrin Noct",
+      "elements": [
+        "Fire",
+        "Dark"
+      ],
+      "recruitLevel": 7,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/pyrin-noct.png",
+      "cryPath": "assets/cries/pals/pyrin-noct.ogg"
+    },
+    {
+      "number": 61,
+      "name": "Kitsun",
+      "elements": [
+        "Fire"
+      ],
+      "recruitLevel": 6,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/kitsun.png",
+      "cryPath": "assets/cries/pals/kitsun.ogg"
+    },
+    {
+      "number": 65,
+      "name": "Surfent",
+      "elements": [
+        "Water"
+      ],
+      "recruitLevel": 4,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/surfent.png",
+      "cryPath": "assets/cries/pals/surfent.ogg"
+    },
+    {
+      "number": 66,
+      "name": "Maraith",
+      "elements": [
+        "Dark"
+      ],
+      "recruitLevel": 6,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/maraith.png",
+      "cryPath": "assets/cries/pals/maraith.ogg"
+    },
+    {
+      "number": 67,
+      "name": "Digtoise",
+      "elements": [
+        "Ground"
+      ],
+      "recruitLevel": 5,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/digtoise.png",
+      "cryPath": "assets/cries/pals/digtoise.ogg"
+    },
+    {
+      "number": 68,
+      "name": "Tombat",
+      "elements": [
+        "Dark"
+      ],
+      "recruitLevel": 5,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/tombat.png",
+      "cryPath": "assets/cries/pals/tombat.ogg"
+    },
+    {
+      "number": 69,
+      "name": "Lovander",
+      "elements": [
+        "Neutral"
+      ],
+      "recruitLevel": 5,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/lovander.png",
+      "cryPath": "assets/cries/pals/lovander.ogg"
+    },
+    {
+      "number": 70,
+      "name": "Flambelle",
+      "elements": [
+        "Fire"
+      ],
+      "recruitLevel": 1,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/flambelle.png",
+      "cryPath": "assets/cries/pals/flambelle.ogg"
+    },
+    {
+      "number": 71,
+      "name": "Vanwyrm",
+      "elements": [
+        "Fire",
+        "Dark"
+      ],
+      "recruitLevel": 4,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/vanwyrm.png",
+      "cryPath": "assets/cries/pals/vanwyrm.ogg"
+    },
+    {
+      "number": 72,
+      "name": "Bushi",
+      "elements": [
+        "Fire"
+      ],
+      "recruitLevel": 7,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/bushi.png",
+      "cryPath": "assets/cries/pals/bushi.ogg"
+    },
+    {
+      "number": 74,
+      "name": "Ragnahawk",
+      "elements": [
+        "Fire"
+      ],
+      "recruitLevel": 7,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/ragnahawk.png",
+      "cryPath": "assets/cries/pals/ragnahawk.ogg"
+    },
+    {
+      "number": 75,
+      "name": "Katress",
+      "elements": [
+        "Dark"
+      ],
+      "recruitLevel": 6,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/katress.png",
+      "cryPath": "assets/cries/pals/katress.ogg"
+    },
+    {
+      "number": 78,
+      "name": "Vaelet",
+      "elements": [
+        "Grass"
+      ],
+      "recruitLevel": 8,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/vaelet.png",
+      "cryPath": "assets/cries/pals/vaelet.ogg"
+    },
+    {
+      "number": 80,
+      "name": "Elphidran",
+      "elements": [
+        "Dragon"
+      ],
+      "recruitLevel": 7,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/elphidran.png",
+      "cryPath": "assets/cries/pals/elphidran.ogg"
+    },
+    {
+      "number": 82,
+      "name": "Azurobe",
+      "elements": [
+        "Water",
+        "Dragon"
+      ],
+      "recruitLevel": 7,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/azurobe.png",
+      "cryPath": "assets/cries/pals/azurobe.ogg"
+    },
+    {
+      "number": 83,
+      "name": "Cryolinx",
+      "elements": [
+        "Ice"
+      ],
+      "recruitLevel": 7,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/cryolinx.png",
+      "cryPath": "assets/cries/pals/cryolinx.ogg"
+    },
+    {
+      "number": 84,
+      "name": "Blazehowl",
+      "elements": [
+        "Fire"
+      ],
+      "recruitLevel": 7,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/blazehowl.png",
+      "cryPath": "assets/cries/pals/blazehowl.ogg"
+    },
+    {
+      "number": 85,
+      "name": "Relaxaurus",
+      "elements": [
+        "Dragon",
+        "Water"
+      ],
+      "recruitLevel": 8,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/relaxaurus.png",
+      "cryPath": "assets/cries/pals/relaxaurus.ogg"
+    },
+    {
+      "number": 87,
+      "name": "Petallia",
+      "elements": [
+        "Grass"
+      ],
+      "recruitLevel": 8,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/petallia.png",
+      "cryPath": "assets/cries/pals/petallia.ogg"
+    },
+    {
+      "number": 88,
+      "name": "Reptyro",
+      "elements": [
+        "Fire",
+        "Ground"
+      ],
+      "recruitLevel": 6,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/reptyro.png",
+      "cryPath": "assets/cries/pals/reptyro.ogg"
+    },
+    {
+      "number": 88,
+      "name": "Reptyro Cryst",
+      "elements": [
+        "Ice",
+        "Ground"
+      ],
+      "recruitLevel": 7,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/reptyro-cryst.png",
+      "cryPath": "assets/cries/pals/reptyro-cryst.ogg"
+    },
+    {
+      "number": 91,
+      "name": "Wumpo",
+      "elements": [
+        "Ice"
+      ],
+      "recruitLevel": 7,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/wumpo.png",
+      "cryPath": "assets/cries/pals/wumpo.ogg"
+    },
+    {
+      "number": 91,
+      "name": "Wumpo Botan",
+      "elements": [
+        "Grass"
+      ],
+      "recruitLevel": 8,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/wumpo-botan.png",
+      "cryPath": "assets/cries/pals/wumpo-botan.ogg"
+    },
+    {
+      "number": 92,
+      "name": "Warsect",
+      "elements": [
+        "Grass",
+        "Ground"
+      ],
+      "recruitLevel": 8,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/warsect.png",
+      "cryPath": "assets/cries/pals/warsect.ogg"
+    },
+    {
+      "number": 97,
+      "name": "Helzephyr",
+      "elements": [
+        "Dark"
+      ],
+      "recruitLevel": 7,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/helzephyr.png",
+      "cryPath": "assets/cries/pals/helzephyr.ogg"
+    },
+    {
+      "number": 99,
+      "name": "Menasting",
+      "elements": [
+        "Dark",
+        "Ground"
+      ],
+      "recruitLevel": 9,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/menasting.png",
+      "cryPath": "assets/cries/pals/menasting.ogg"
+    },
+    {
+      "number": 101,
+      "name": "Jormuntide",
+      "elements": [
+        "Dragon",
+        "Water"
+      ],
+      "recruitLevel": 8,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/jormuntide.png",
+      "cryPath": "assets/cries/pals/jormuntide.ogg"
+    },
+    {
+      "number": 101,
+      "name": "Jormuntide Ignis",
+      "elements": [
+        "Dragon",
+        "Fire"
+      ],
+      "recruitLevel": 9,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/jormuntide-ignis.png",
+      "cryPath": "assets/cries/pals/jormuntide-ignis.ogg"
+    },
+    {
+      "number": 102,
+      "name": "Suzaku",
+      "elements": [
+        "Fire"
+      ],
+      "recruitLevel": 8,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/suzaku.png",
+      "cryPath": "assets/cries/pals/suzaku.ogg"
+    },
+    {
+      "number": 104,
+      "name": "Lyleen",
+      "elements": [
+        "Grass"
+      ],
+      "recruitLevel": 9,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/lyleen.png",
+      "cryPath": "assets/cries/pals/lyleen.ogg"
+    },
+    {
+      "number": 104,
+      "name": "Lyleen Noct",
+      "elements": [
+        "Dark"
+      ],
+      "recruitLevel": 10,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/lyleen-noct.png",
+      "cryPath": "assets/cries/pals/lyleen-noct.ogg"
+    },
+    {
+      "number": 107,
+      "name": "Shadowbeak",
+      "elements": [
+        "Dark"
+      ],
+      "recruitLevel": 10,
+      "abilities": {
+        "primary": "",
+        "secondary": "",
+        "hidden": ""
+      },
+      "description": "",
+      "spritePath": "assets/sprites/pals/shadowbeak.png",
+      "cryPath": "assets/cries/pals/shadowbeak.ogg"
     }
   ]
 }

@@ -5,47 +5,74 @@
 namespace NeoDex
 {
 
-// Card rarity, matching real Palworld TCG rarities.
 enum class CardRarity
 {
     Common,
     Uncommon,
     Rare,
-    SuperRare,
-    UltraRare,
-    SecretRare
+    DoubleRare,
+    Unknown
+};
+
+enum class CardType
+{
+    Pal,
+    Gear,
+    Structure,
+    Event,
+    Soul
 };
 
 // A single printed card. A Pal (species) can have many Cards across
-// different sets/expansions (e.g. a normal print and a holo print in the
-// same set, or reprints in later sets).
+// different sets/expansions. Non-Pal cards (Gear, Structure, Event, Soul)
+// have palNumber == -1.
 class Card
 {
 private:
 
-    std::string cardId;      // unique id, e.g. "DOP-001"
-    int palNumber;           // which Pal this card depicts
-    std::string setCode;     // e.g. "DOP" for Dawn of Palpagos
+    std::string cardId;      // e.g. "BP01-001"
+    std::string cardName;    // e.g. "Jormuntide Ignis" or "Mounted Machine Gun"
+    std::string subtitle;    // e.g. "Savage Lava Dragon" (Pal cards only)
+    int palNumber;           // which Pal this card depicts, -1 if not a Pal card
+    CardType cardType;
+    std::string setCode;     // e.g. "BP01"
     std::string setName;     // e.g. "Dawn of Palpagos"
     CardRarity rarity;
-    std::string artPath;     // path to the card artwork
+
+    // TCG-specific stats. -1 means "not revealed/known yet".
+    int cost;
+    int power;
+    int strike;
+
+    std::string artPath;
     bool owned;
 
 public:
 
     Card(
         const std::string& id,
-        int pal,
-        const std::string& code,
         const std::string& name,
+        const std::string& cardSubtitle,
+        int pal,
+        CardType type,
+        const std::string& code,
+        const std::string& setDisplayName,
         CardRarity cardRarity
     );
 
     std::string getCardId() const;
+    std::string getCardName() const;
+    std::string getSubtitle() const;
     int getPalNumber() const;
+    CardType getCardType() const;
     std::string getSetCode() const;
     std::string getSetName() const;
     CardRarity getRarity() const;
+
+    void setStats(int cardCost, int cardPower, int cardStrike);
+    int getCost() const;
+    int getPower() const;
+    int getStrike() const;
 
     void setArtPath(const std::string& path);
     std::string getArtPath() const;
